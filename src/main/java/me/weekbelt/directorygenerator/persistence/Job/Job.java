@@ -52,4 +52,8 @@ public class Job {
     @JoinColumn(name = "job_type_id")
     private JobType jobType;
 
+    public void addJobType(JobType jobType) {
+        this.jobType = jobType;
+        jobType.getJobs().add(this);
+    }
 }
