@@ -16,6 +16,7 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
+import me.weekbelt.directorygenerator.persistence.BaseTimeEntity;
 import me.weekbelt.directorygenerator.persistence.common.PhoneType;
 import me.weekbelt.directorygenerator.persistence.staffer.Staffer;
 
@@ -24,7 +25,7 @@ import me.weekbelt.directorygenerator.persistence.staffer.Staffer;
 @SuperBuilder
 @Getter
 @Entity
-public class Department {
+public class Department extends BaseTimeEntity {
 
     @Id
     private String id;

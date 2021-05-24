@@ -12,13 +12,14 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import me.weekbelt.directorygenerator.persistence.BaseTimeEntity;
 
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor
 @Builder
 @Getter
 @Entity
-public class JobType {
+public class JobType extends BaseTimeEntity {
 
     @Id
     private String id;

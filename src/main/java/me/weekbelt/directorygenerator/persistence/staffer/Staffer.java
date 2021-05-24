@@ -21,6 +21,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import me.weekbelt.directorygenerator.persistence.BaseTimeEntity;
 import me.weekbelt.directorygenerator.persistence.common.PhoneType;
 import me.weekbelt.directorygenerator.persistence.department.Department;
 
@@ -30,7 +31,7 @@ import me.weekbelt.directorygenerator.persistence.department.Department;
 @Builder
 @Getter
 @Entity
-public class Staffer {
+public class Staffer extends BaseTimeEntity {
 
     @Id
     private String id; // manual generate uuid
@@ -70,4 +71,7 @@ public class Staffer {
     @Column(nullable = false)
     private String branchId;
 
+    public void addDepartment(Department department) {
+        this.department = department;
+    }
 }

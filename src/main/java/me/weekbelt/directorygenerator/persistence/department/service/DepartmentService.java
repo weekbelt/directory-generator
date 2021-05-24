@@ -11,8 +11,6 @@ import me.weekbelt.directorygenerator.persistence.common.fileUtil.JsonExporter;
 import me.weekbelt.directorygenerator.persistence.department.Department;
 import me.weekbelt.directorygenerator.persistence.department.DepartmentTree;
 import me.weekbelt.directorygenerator.persistence.department.NewDepartmentJson;
-import me.weekbelt.directorygenerator.persistence.department.OldDepartmentJson;
-import me.weekbelt.directorygenerator.persistence.department.OldDepartmentJson.Hierarchy;
 import me.weekbelt.directorygenerator.persistence.department.repository.DepartmentRepository;
 import me.weekbelt.directorygenerator.persistence.department.repository.DepartmentTreeRepository;
 import org.springframework.stereotype.Service;
@@ -58,7 +56,7 @@ public class DepartmentService {
     }
 
     public List<DepartmentTree> getDepartmentTrees(String ancestorId, String departmentId, String branchId) {
-        List<DepartmentTree> parentDepartmentTrees = departmentTreeRepository.findByDescendantAndBranchId(ancestorId, ancestorId);
+        List<DepartmentTree> parentDepartmentTrees = departmentTreeRepository.findByDescendantAndBranchId(ancestorId, branchId);
         List<DepartmentTree> departmentTrees = new ArrayList<>();
         parentDepartmentTrees.forEach(parentDepartmentTree -> {
             DepartmentTree departmentTree = DepartmentTree.builder()

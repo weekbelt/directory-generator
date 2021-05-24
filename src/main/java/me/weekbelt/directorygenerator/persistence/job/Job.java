@@ -17,6 +17,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import me.weekbelt.directorygenerator.persistence.BaseTimeEntity;
 import me.weekbelt.directorygenerator.persistence.staffer.StafferJob;
 
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
@@ -24,7 +25,7 @@ import me.weekbelt.directorygenerator.persistence.staffer.StafferJob;
 @Builder
 @Getter
 @Entity
-public class Job {
+public class Job extends BaseTimeEntity {
 
     @Id
     private String id;
