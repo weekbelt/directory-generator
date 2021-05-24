@@ -30,4 +30,11 @@ public class DepartmentTree {
     @Column(nullable = false)
     private String branchId;
 
+    public void changeDescendantId(String descendant) {
+        this.descendant = descendant;
+    }
+
+    public void changeAncestorId(String ancestor) {
+        this.ancestor = ancestor;
+    }
 }

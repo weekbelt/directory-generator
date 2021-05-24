@@ -12,7 +12,6 @@ import me.weekbelt.directorygenerator.persistence.department.Department;
 import me.weekbelt.directorygenerator.persistence.department.DepartmentTree;
 import me.weekbelt.directorygenerator.persistence.department.OldDepartmentJson;
 import me.weekbelt.directorygenerator.persistence.department.OldDepartmentJson.Hierarchy;
-import me.weekbelt.directorygenerator.persistence.department.OldDepartmentJson.Phone;
 import me.weekbelt.directorygenerator.persistence.department.repository.DepartmentRepository;
 import me.weekbelt.directorygenerator.persistence.department.repository.DepartmentTreeRepository;
 import org.springframework.stereotype.Service;
@@ -35,10 +34,10 @@ public class DepartmentService {
 
     private void saveAllDepartments(List<OldDepartmentJson> oldDepartmentJsons) throws JsonProcessingException {
         for (OldDepartmentJson oldDepartmentJson : oldDepartmentJsons) {
-            Phone phone = oldDepartmentJson.getPhone();
+            OldDepartmentJson.Phone phone = oldDepartmentJson.getOldDepartmentPhone();
 
             Department department = Department.builder()
-                .id(UUID.randomUUID().toString())
+                .id(String.valueOf(oldDepartmentJson.getDepartmentID()))
                 .name(oldDepartmentJson.getDeptName())
                 .phoneNumber(phone.getNumber())
                 .phoneType(phone.getType().equals("내선") ? PhoneType.INWARD_DIALING : PhoneType.OUTWARD_DIALING)
@@ -74,9 +73,43 @@ public class DepartmentService {
     }
 
     private void addAncestorDepartmentTrees(OldDepartmentJson oldDepartmentJson, List<DepartmentTree> departmentTrees) {
-        List<Hierarchy> hierarchy = oldDepartmentJson.getHierarchy();
-        if (!hierarchy.isEmpty()) {
-            hierarchy
+        List<Hierarchy> departmentHierarchy = oldDepartmentJson.getHierarchy();
+        int depth = oldDepartmentJson.getDepth();
+
+        for (Hierarchy hierarchy : departmentHierarchy) {
+            DepartmentTree departmentTree = DepartmentTree.builder()
+                .id(UUID.randomUUID().toString())
+                .ancestor(hierarchy.getId())
+                .descendant(String.valueOf(oldDepartmentJson.getDepartmentID()))
+                .depth(depth)
+                .branchId(oldDepartmentJson.getBchID())
+                .build();
+            departmentTrees.add(departmentTree);
+            depth--;
         }
     }
+
+    private void changeDepartmentIdToUUID() {
+        List<Department> departments = departmentRepository.findAll();
+        for (Department department : departments) {
+            String oldDepartmentId = department.getId();
+            String newDepartmentId = UUID.randomUUID().toString();
+
+            department.changeId(newDepartmentId);
+            departmentRepository.save(department);
+
+            List<DepartmentTree> departmentTreesForAncestor = departmentTreeRepository.findByAncestorAndBranchId(oldDepartmentId, department.getBranchId());
+            for (DepartmentTree departmentTree : departmentTreesForAncestor) {
+                departmentTree.changeAncestorId(newDepartmentId);
+            }
+            departmentTreeRepository.saveAll(departmentTreesForAncestor);
+
+            List<DepartmentTree> departmentTrees = departmentTreeRepository.findByDescendantAndBranchId(oldDepartmentId, department.getBranchId());
+            for (DepartmentTree departmentTree : departmentTrees) {
+                departmentTree.changeDescendantId(newDepartmentId);
+            }
+            departmentTreeRepository.saveAll(departmentTrees);
+        }
+    }
+
 }

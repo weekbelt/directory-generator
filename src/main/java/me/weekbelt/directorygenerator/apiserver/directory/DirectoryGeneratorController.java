@@ -20,10 +20,11 @@ public class DirectoryGeneratorController {
     private final DepartmentService departmentService;
     private final DepartmentJsonService departmentJsonService;
 
-    @GetMapping("/api/v1/directory/new-generator/{branchName}")
+    @GetMapping("/api/v1/directories/new-generator/{branchName}")
     @ResponseStatus(HttpStatus.OK)
     public ResponseEntity<Resource> generateDepartment(@PathVariable String branchName) throws IOException {
         departmentService.saveAllDepartmentsAndDepartmentTrees(branchName);
+//        departmentService.changeDepartmentIdToUUID();
         Resource resource = departmentJsonService.generateDirectoryDepartment(branchName);
         return getResourceResponseEntity(resource, branchName);
     }

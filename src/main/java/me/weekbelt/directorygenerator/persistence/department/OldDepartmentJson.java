@@ -72,7 +72,7 @@ public class OldDepartmentJson {
         private String number;
     }
 
-    public Phone getPhone() throws JsonProcessingException {
+    public OldDepartmentJson.Phone getOldDepartmentPhone() throws JsonProcessingException {
         ObjectMapper objectMapper = new ObjectMapper();
         return objectMapper.treeToValue(this.phone, OldDepartmentJson.Phone.class);
     }

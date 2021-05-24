@@ -9,9 +9,7 @@ import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.FetchType;
 import javax.persistence.Id;
-import javax.persistence.Index;
 import javax.persistence.OneToMany;
-import javax.persistence.Table;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -55,4 +53,7 @@ public class Department {
     @Column(nullable = false)
     private String branchId;
 
+    public void changeId(String id) {
+        this.id = id;
+    }
 }
