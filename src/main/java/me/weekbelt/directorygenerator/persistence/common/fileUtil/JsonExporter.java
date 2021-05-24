@@ -10,6 +10,7 @@ import java.util.List;
 import lombok.RequiredArgsConstructor;
 import me.weekbelt.directorygenerator.persistence.common.exception.JsonFileHandlingException;
 import me.weekbelt.directorygenerator.persistence.department.OldDepartmentJson;
+import me.weekbelt.directorygenerator.persistence.staffer.OldStafferJson;
 import org.springframework.core.io.ByteArrayResource;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Component;
@@ -22,6 +23,17 @@ public class JsonExporter {
 
     public List<OldDepartmentJson> getOldDepartmentJsons(String branchName) {
         ClassPathResource departmentJsonResource = new ClassPathResource("json/" + branchName + "/old/department.json");
+        try {
+            File file = departmentJsonResource.getFile();
+            return objectMapper.readValue(file, new TypeReference<>() {
+            });
+        } catch (IOException e) {
+            throw new FileSystemNotFoundException(e.getMessage());
+        }
+    }
+
+    public List<OldStafferJson> getOldStafferJsons(String branchName) {
+        ClassPathResource departmentJsonResource = new ClassPathResource("json/" + branchName + "/old/staffer.json");
         try {
             File file = departmentJsonResource.getFile();
             return objectMapper.readValue(file, new TypeReference<>() {

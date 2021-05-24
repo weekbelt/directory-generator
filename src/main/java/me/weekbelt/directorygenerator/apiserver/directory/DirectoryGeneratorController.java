@@ -4,14 +4,12 @@ import java.io.IOException;
 import lombok.RequiredArgsConstructor;
 import me.weekbelt.directorygenerator.persistence.department.service.DepartmentJsonService;
 import me.weekbelt.directorygenerator.persistence.department.service.DepartmentService;
+import me.weekbelt.directorygenerator.persistence.staffer.service.StafferJsonService;
 import org.springframework.core.io.Resource;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 @RequestMapping("/api")
@@ -21,12 +19,19 @@ public class DirectoryGeneratorController {
 
     private final DepartmentService departmentService;
     private final DepartmentJsonService departmentJsonService;
+    private final StafferJsonService stafferJsonService;
 
 
     @GetMapping("/v1/generate/new-department")
     public ResponseEntity<Resource> generateNewDepartment(String branchName) throws IOException {
         Resource newDepartmentJsonResource = departmentJsonService.generateNewDepartment(branchName);
         return getResourceResponseEntity(newDepartmentJsonResource, "department.json");
+    }
+
+    @GetMapping("/v1/generate/new-staffer")
+    public ResponseEntity<Resource> generateNewStaffer(String branchName) throws IOException {
+        Resource newStafferJsonResource = stafferJsonService.generateNewStaffer(branchName);
+        return getResourceResponseEntity(newStafferJsonResource, "staffer.json");
     }
 
 //    @GetMapping("/api/v1/directories/new-generator/{branchName}")
