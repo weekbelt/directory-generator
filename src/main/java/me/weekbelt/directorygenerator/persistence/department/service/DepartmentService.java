@@ -10,6 +10,7 @@ import me.weekbelt.directorygenerator.persistence.common.PhoneType;
 import me.weekbelt.directorygenerator.persistence.common.fileUtil.JsonExporter;
 import me.weekbelt.directorygenerator.persistence.department.Department;
 import me.weekbelt.directorygenerator.persistence.department.DepartmentTree;
+import me.weekbelt.directorygenerator.persistence.department.NewDepartmentJson;
 import me.weekbelt.directorygenerator.persistence.department.OldDepartmentJson;
 import me.weekbelt.directorygenerator.persistence.department.OldDepartmentJson.Hierarchy;
 import me.weekbelt.directorygenerator.persistence.department.repository.DepartmentRepository;
@@ -27,89 +28,56 @@ public class DepartmentService {
 
 
     public void saveAllDepartmentsAndDepartmentTrees(String branchName) throws JsonProcessingException {
-        List<OldDepartmentJson> oldDepartmentJsons = jsonExporter.getOldDepartmentJsons(branchName);
-        saveAllDepartments(oldDepartmentJsons);
-        saveAllDepartmentTrees(oldDepartmentJsons);
-    }
+        List<NewDepartmentJson> newDepartmentJsons = jsonExporter.getNewDepartmentJsons(branchName);
 
-    private void saveAllDepartments(List<OldDepartmentJson> oldDepartmentJsons) throws JsonProcessingException {
-        for (OldDepartmentJson oldDepartmentJson : oldDepartmentJsons) {
-            OldDepartmentJson.Phone phone = oldDepartmentJson.getOldDepartmentPhone();
-
-            Department department = Department.builder()
-                .id(String.valueOf(oldDepartmentJson.getDepartmentID()))
-                .name(oldDepartmentJson.getDeptName())
-                .phoneNumber(phone.getNumber())
-                .phoneType(phone.getType().equals("내선") ? PhoneType.INWARD_DIALING : PhoneType.OUTWARD_DIALING)
-                .branchId(oldDepartmentJson.getBchID())
-                .build();
-            departmentRepository.save(department);
+        for (NewDepartmentJson newDepartmentJson : newDepartmentJsons) {
+            saveDepartment(newDepartmentJson);
+            saveDepartmentTrees(newDepartmentJson);
         }
     }
 
-    private void saveAllDepartmentTrees(List<OldDepartmentJson> oldDepartmentJsons) {
-        oldDepartmentJsons.forEach(oldDepartmentJson -> {
-            List<DepartmentTree> departmentTrees = getDepartmentTrees(oldDepartmentJson);
-            departmentTreeRepository.saveAll(departmentTrees);
-        });
-    }
-
-    private List<DepartmentTree> getDepartmentTrees(OldDepartmentJson oldDepartmentJson) {
-        List<DepartmentTree> departmentTrees = new ArrayList<>();
-        addAncestorDepartmentTrees(oldDepartmentJson, departmentTrees);
-        addCurrentDepartmentTree(oldDepartmentJson, departmentTrees);
-        return departmentTrees;
-    }
-
-    private void addCurrentDepartmentTree(OldDepartmentJson oldDepartmentJson, List<DepartmentTree> departmentTrees) {
-        DepartmentTree departmentTree = DepartmentTree.builder()
-            .id(UUID.randomUUID().toString())
-            .ancestor(String.valueOf(oldDepartmentJson.getDepartmentID()))
-            .descendant(String.valueOf(oldDepartmentJson.getDepartmentID()))
-            .depth(0)
-            .branchId(oldDepartmentJson.getBchID())
+    private void saveDepartment(NewDepartmentJson newDepartmentJson) {
+        NewDepartmentJson.Phone phone = newDepartmentJson.getPhone();
+        Department department = Department.builder()
+            .id(String.valueOf(newDepartmentJson.getId()))
+            .name(newDepartmentJson.getName())
+            .phoneNumber(phone.getNumber())
+            .phoneType(PhoneType.valueOf(phone.getType()))
+            .branchId(newDepartmentJson.getBranchID())
             .build();
-        departmentTrees.add(departmentTree);
+        departmentRepository.save(department);
     }
 
-    private void addAncestorDepartmentTrees(OldDepartmentJson oldDepartmentJson, List<DepartmentTree> departmentTrees) {
-        List<Hierarchy> departmentHierarchy = oldDepartmentJson.getHierarchy();
-        int depth = oldDepartmentJson.getDepth();
+    private void saveDepartmentTrees(NewDepartmentJson newDepartmentJson) {
+        String departmentId = newDepartmentJson.getId();
+        String parentDepartmentId = newDepartmentJson.getParentDept() == null ? null : newDepartmentJson.getParentDept().getId();
+        String branchId = newDepartmentJson.getBranchID();
 
-        for (Hierarchy hierarchy : departmentHierarchy) {
+        List<DepartmentTree> departmentTrees = getDepartmentTrees(parentDepartmentId, departmentId, branchId);
+        departmentTreeRepository.saveAll(departmentTrees);
+    }
+
+    public List<DepartmentTree> getDepartmentTrees(String ancestorId, String departmentId, String branchId) {
+        List<DepartmentTree> parentDepartmentTrees = departmentTreeRepository.findByDescendantAndBranchId(ancestorId, ancestorId);
+        List<DepartmentTree> departmentTrees = new ArrayList<>();
+        parentDepartmentTrees.forEach(parentDepartmentTree -> {
             DepartmentTree departmentTree = DepartmentTree.builder()
                 .id(UUID.randomUUID().toString())
-                .ancestor(hierarchy.getId())
-                .descendant(String.valueOf(oldDepartmentJson.getDepartmentID()))
-                .depth(depth)
-                .branchId(oldDepartmentJson.getBchID())
+                .ancestor(parentDepartmentTree.getAncestor())
+                .descendant(departmentId)
+                .depth(parentDepartmentTree.getDepth() + 1)
+                .branchId(parentDepartmentTree.getBranchId())
                 .build();
             departmentTrees.add(departmentTree);
-            depth--;
-        }
+        });
+
+        departmentTrees.add(DepartmentTree.builder()
+            .id(UUID.randomUUID().toString())
+            .ancestor(departmentId)
+            .descendant(departmentId)
+            .depth(0)
+            .branchId(branchId)
+            .build());
+        return departmentTrees;
     }
-
-    private void changeDepartmentIdToUUID() {
-        List<Department> departments = departmentRepository.findAll();
-        for (Department department : departments) {
-            String oldDepartmentId = department.getId();
-            String newDepartmentId = UUID.randomUUID().toString();
-
-            department.changeId(newDepartmentId);
-            departmentRepository.save(department);
-
-            List<DepartmentTree> departmentTreesForAncestor = departmentTreeRepository.findByAncestorAndBranchId(oldDepartmentId, department.getBranchId());
-            for (DepartmentTree departmentTree : departmentTreesForAncestor) {
-                departmentTree.changeAncestorId(newDepartmentId);
-            }
-            departmentTreeRepository.saveAll(departmentTreesForAncestor);
-
-            List<DepartmentTree> departmentTrees = departmentTreeRepository.findByDescendantAndBranchId(oldDepartmentId, department.getBranchId());
-            for (DepartmentTree departmentTree : departmentTrees) {
-                departmentTree.changeDescendantId(newDepartmentId);
-            }
-            departmentTreeRepository.saveAll(departmentTrees);
-        }
-    }
-
 }

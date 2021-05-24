@@ -1,12 +1,11 @@
-package me.weekbelt.directorygenerator.persistence.Job;
+package me.weekbelt.directorygenerator.persistence.position;
 
-import java.util.ArrayList;
-import java.util.List;
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
 import javax.persistence.Id;
-import javax.persistence.OneToMany;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -16,21 +15,21 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor
 @Builder
-@Getter
 @Entity
-public class JobType {
+@Getter
+public class PositionSynonym {
 
     @Id
     private String id;
 
-    @Column(nullable = false)
-    private String name;
+    private String synonym;
+
+    @JsonBackReference
+    @ManyToOne
+    @JoinColumn(name = "position_id")
+    private Position position;
 
     @Column(nullable = false)
     private String branchId;
-
-    @Builder.Default
-    @OneToMany(mappedBy = "jobType", fetch = FetchType.LAZY)
-    private List<Job> jobs = new ArrayList<>();
 
 }

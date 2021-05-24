@@ -1,4 +1,4 @@
-package me.weekbelt.directorygenerator.persistence.Position;
+package me.weekbelt.directorygenerator.persistence.position;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;

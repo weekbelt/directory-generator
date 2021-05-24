@@ -2,7 +2,7 @@ package me.weekbelt.directorygenerator.apiserver.directory;
 
 import java.io.IOException;
 import lombok.RequiredArgsConstructor;
-import me.weekbelt.directorygenerator.persistence.Job.service.JobJsonService;
+import me.weekbelt.directorygenerator.persistence.job.service.JobJsonService;
 import me.weekbelt.directorygenerator.persistence.department.service.DepartmentJsonService;
 import me.weekbelt.directorygenerator.persistence.department.service.DepartmentService;
 import me.weekbelt.directorygenerator.persistence.staffer.service.StafferJsonService;
@@ -41,7 +41,7 @@ public class DirectoryGeneratorController {
         Resource newJobJsonResource = jobJsonService.generateNewJob(branchName);
         return getResourceResponseEntity(newJobJsonResource, "job.json");
     }
-
+//
 //    @GetMapping("/api/v1/directories/new-generator/{branchName}")
 //    @ResponseStatus(HttpStatus.OK)
 //    public ResponseEntity<Resource> generateDepartment(@PathVariable String branchName) throws IOException {

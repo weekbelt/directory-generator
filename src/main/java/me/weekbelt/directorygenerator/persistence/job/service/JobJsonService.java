@@ -1,17 +1,16 @@
-package me.weekbelt.directorygenerator.persistence.Job.service;
+package me.weekbelt.directorygenerator.persistence.job.service;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.IOException;
 import java.util.List;
 import java.util.UUID;
 import java.util.stream.Collectors;
 import lombok.RequiredArgsConstructor;
-import me.weekbelt.directorygenerator.persistence.Job.Job;
-import me.weekbelt.directorygenerator.persistence.Job.JobConverter;
-import me.weekbelt.directorygenerator.persistence.Job.JobType;
-import me.weekbelt.directorygenerator.persistence.Job.NewJobJson;
-import me.weekbelt.directorygenerator.persistence.Job.repository.JobRepository;
-import me.weekbelt.directorygenerator.persistence.Job.repository.JobTypeRepository;
+import me.weekbelt.directorygenerator.persistence.job.Job;
+import me.weekbelt.directorygenerator.persistence.job.JobConverter;
+import me.weekbelt.directorygenerator.persistence.job.JobType;
+import me.weekbelt.directorygenerator.persistence.job.NewJobJson;
+import me.weekbelt.directorygenerator.persistence.job.repository.JobRepository;
+import me.weekbelt.directorygenerator.persistence.job.repository.JobTypeRepository;
 import me.weekbelt.directorygenerator.persistence.common.fileUtil.JsonExporter;
 import me.weekbelt.directorygenerator.persistence.staffer.OldStafferJson;
 import org.apache.commons.lang3.StringUtils;

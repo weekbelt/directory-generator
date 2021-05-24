@@ -1,4 +1,4 @@
-package me.weekbelt.directorygenerator.persistence.Job;
+package me.weekbelt.directorygenerator.persistence.job;
 
 import java.util.ArrayList;
 import java.util.UUID;

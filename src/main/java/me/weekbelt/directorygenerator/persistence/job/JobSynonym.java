@@ -1,4 +1,4 @@
-package me.weekbelt.directorygenerator.persistence.Position;
+package me.weekbelt.directorygenerator.persistence.job;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import javax.persistence.Column;
@@ -17,7 +17,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @Entity
 @Getter
-public class PositionSynonym {
+public class JobSynonym {
 
     @Id
     private String id;
@@ -26,8 +26,8 @@ public class PositionSynonym {
 
     @JsonBackReference
     @ManyToOne
-    @JoinColumn(name = "position_id")
-    private Position position;
+    @JoinColumn(name = "job_id")
+    private Job job;
 
     @Column(nullable = false)
     private String branchId;
