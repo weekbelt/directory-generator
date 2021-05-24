@@ -2,16 +2,21 @@ package me.weekbelt.directorygenerator.persistence.department.service;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 import java.util.UUID;
+import java.util.stream.Collectors;
 import javax.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import me.weekbelt.directorygenerator.persistence.common.fileUtil.JsonExporter;
 import me.weekbelt.directorygenerator.persistence.department.Department;
+import me.weekbelt.directorygenerator.persistence.department.DepartmentConverter;
+import me.weekbelt.directorygenerator.persistence.department.DepartmentId;
 import me.weekbelt.directorygenerator.persistence.department.DepartmentTree;
 import me.weekbelt.directorygenerator.persistence.department.NewDepartmentJson;
 import me.weekbelt.directorygenerator.persistence.department.NewDepartmentJson.ParentDept;
 import me.weekbelt.directorygenerator.persistence.department.NewDepartmentJson.Phone;
 import me.weekbelt.directorygenerator.persistence.department.OldDepartmentJson;
+import me.weekbelt.directorygenerator.persistence.department.repository.DepartmentIdRepository;
 import me.weekbelt.directorygenerator.persistence.department.repository.DepartmentRepository;
 import me.weekbelt.directorygenerator.persistence.department.repository.DepartmentTreeRepository;
 import org.springframework.core.io.Resource;
@@ -24,6 +29,52 @@ public class DepartmentJsonService {
     private final JsonExporter jsonExporter;
     private final DepartmentRepository departmentRepository;
     private final DepartmentTreeRepository departmentTreeRepository;
+    private final DepartmentIdRepository departmentIdRepository;
+
+
+    public Resource generateNewDepartment(String branchName) {
+        List<OldDepartmentJson> oldDepartmentJsons = jsonExporter.getOldDepartmentJsons(branchName);
+
+        saveDepartmentOldAndNewId(oldDepartmentJsons);
+        List<NewDepartmentJson> newDepartmentJsonList = oldDepartmentJsons.stream().map(DepartmentConverter::convertToNewDepartmentJson).collect(Collectors.toList());
+
+        // String 타입으로 바뀐 departmentId로 설정
+        setNewDepartmentId(newDepartmentJsonList);
+
+        return jsonExporter.getByteArrayResource(newDepartmentJsonList);
+    }
+
+    private void saveDepartmentOldAndNewId(List<OldDepartmentJson> departmentJsonList) {
+        departmentJsonList.forEach(departmentJson -> {
+            DepartmentId departmentId = DepartmentId.builder()
+                .oldDepartmentId(departmentJson.getDepartmentID())
+                .newDepartmentId(UUID.randomUUID().toString())
+                .build();
+            departmentIdRepository.save(departmentId);
+        });
+    }
+
+    private void setNewDepartmentId(List<NewDepartmentJson> newDepartmentJsonList) {
+        newDepartmentJsonList.forEach(newDepartmentJson -> {
+            setNewDepartmentId(newDepartmentJson);
+            setNewParentDepartmentId(newDepartmentJson);
+        });
+    }
+
+
+    private void setNewDepartmentId(NewDepartmentJson newDepartmentJson) {
+        DepartmentId departmentId = departmentIdRepository.findByOldDepartmentId(Long.valueOf(newDepartmentJson.getId()))
+            .orElseThrow(() -> new EntityNotFoundException("해당하는 departmentId를 찾지 못했습니다. oldDepartmentId=" + newDepartmentJson.getId()));
+        newDepartmentJson.setNewDepartmentId(departmentId.getNewDepartmentId());
+    }
+
+    private void setNewParentDepartmentId(NewDepartmentJson newDepartmentJson) {
+        Optional.ofNullable(newDepartmentJson.getParentDept()).ifPresent(parentDept -> {
+            DepartmentId parentDepartmentId = departmentIdRepository.findByOldDepartmentId(Long.valueOf(parentDept.getId()))
+                .orElseThrow(() -> new EntityNotFoundException("해당하는 departmentId를 찾지 못했습니다. oldDepartmentId=" + parentDept.getId()));
+            parentDept.setNewParentDepartmentId(parentDepartmentId.getNewDepartmentId());
+        });
+    }
 
     public Resource generateDirectoryDepartment(String branchName) {
         String branchId = getBranchId(branchName);

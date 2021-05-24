@@ -10,9 +10,11 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
+@RequestMapping("/api")
 @RequiredArgsConstructor
 @RestController
 public class DirectoryGeneratorController {
@@ -20,14 +22,21 @@ public class DirectoryGeneratorController {
     private final DepartmentService departmentService;
     private final DepartmentJsonService departmentJsonService;
 
-    @GetMapping("/api/v1/directories/new-generator/{branchName}")
-    @ResponseStatus(HttpStatus.OK)
-    public ResponseEntity<Resource> generateDepartment(@PathVariable String branchName) throws IOException {
-        departmentService.saveAllDepartmentsAndDepartmentTrees(branchName);
-//        departmentService.changeDepartmentIdToUUID();
-        Resource resource = departmentJsonService.generateDirectoryDepartment(branchName);
-        return getResourceResponseEntity(resource, branchName);
+
+    @GetMapping("/v1/generate/new-department")
+    public ResponseEntity<Resource> generateNewDepartment(String branchName) throws IOException {
+        Resource newDepartmentJsonResource = departmentJsonService.generateNewDepartment(branchName);
+        return getResourceResponseEntity(newDepartmentJsonResource, "department.json");
     }
+
+//    @GetMapping("/api/v1/directories/new-generator/{branchName}")
+//    @ResponseStatus(HttpStatus.OK)
+//    public ResponseEntity<Resource> generateDepartment(@PathVariable String branchName) throws IOException {
+//        departmentService.saveAllDepartmentsAndDepartmentTrees(branchName);
+////        departmentService.changeDepartmentIdToUUID();
+//        Resource resource = departmentJsonService.generateDirectoryDepartment(branchName);
+//        return getResourceResponseEntity(resource, branchName);
+//    }
 
     private ResponseEntity<Resource> getResourceResponseEntity(Resource departmentJsonResource, String fileName) throws IOException {
         return ResponseEntity.ok()

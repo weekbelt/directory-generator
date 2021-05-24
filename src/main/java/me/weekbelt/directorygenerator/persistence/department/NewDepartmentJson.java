@@ -28,6 +28,10 @@ public class NewDepartmentJson {
 
     private List<String> areas;
 
+    public void setNewDepartmentId(String newDepartmentId) {
+        this.id = newDepartmentId;
+    }
+
     @Builder
     @AllArgsConstructor
     @NoArgsConstructor
@@ -38,6 +42,10 @@ public class NewDepartmentJson {
         private String id;
         private String name;
         private Phone phone;
+
+        public void setNewParentDepartmentId(String newDepartmentId) {
+            this.id = newDepartmentId;
+        }
     }
 
 
