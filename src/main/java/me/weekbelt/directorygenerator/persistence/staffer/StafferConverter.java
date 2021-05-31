@@ -48,11 +48,25 @@ public class StafferConverter {
         Optional<JsonNode> jsonPhone2 = Optional.ofNullable(stafferJson.getPhone2());
         return jsonPhone2.map(phone2JsonNode -> {
             OldStafferJson.Phone phone2 = getOldStafferPhone2(stafferJson, objectMapper);
-            return NewStafferJson.Phone.builder()
-                .type(phone2.getType().equals("내선") ? "INWARD_DIALING" : "OUTWARD_DIALING")
-//                .type("INWARD_DIALING")
-                .number(phone2.getNumber() == null ? "0000" : phone2.getNumber())
-                .build();
+            if (phone2 != null) {
+                String phoneType = "";
+                String phoneNumber = "";
+                if (phone2.getType() != null) {
+                    phoneType = phone2.getType().equals("내선") ? "INWARD_DIALING" : "OUTWARD_DIALING";
+                }
+                if (phone2.getNumber() != null) {
+                    phoneNumber = phone2.getNumber();
+                }
+                return NewStafferJson.Phone.builder()
+                    .type(phoneType)
+                    .number(phoneNumber)
+                    .build();
+            } else {
+                return NewStafferJson.Phone.builder()
+                    .type("")
+                    .number("")
+                    .build();
+            }
         }).orElse(null);
     }
 

@@ -14,6 +14,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class NewDepartmentJson {
 
+    private int depth;
+
+    private List<Hierarchy> hierarchies;
+
     private String id;
 
     private String name;
@@ -30,6 +34,17 @@ public class NewDepartmentJson {
 
     public void setNewDepartmentId(String newDepartmentId) {
         this.id = newDepartmentId;
+    }
+
+    @Builder
+    @AllArgsConstructor
+    @NoArgsConstructor
+    @Data
+    @JsonIgnoreProperties(ignoreUnknown = true)
+    public static class Hierarchy {
+
+        private String id;
+        private String name;
     }
 
     @Builder
@@ -59,5 +74,4 @@ public class NewDepartmentJson {
         private String type;
         private String number;
     }
-
 }

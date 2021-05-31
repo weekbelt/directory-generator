@@ -1,5 +1,6 @@
 package me.weekbelt.directorygenerator.persistence.department.service;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -21,7 +22,9 @@ import me.weekbelt.directorygenerator.persistence.department.repository.Departme
 import me.weekbelt.directorygenerator.persistence.department.repository.DepartmentTreeRepository;
 import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
+@Transactional
 @RequiredArgsConstructor
 @Service
 public class DepartmentJsonService {
@@ -30,13 +33,14 @@ public class DepartmentJsonService {
     private final DepartmentRepository departmentRepository;
     private final DepartmentTreeRepository departmentTreeRepository;
     private final DepartmentIdRepository departmentIdRepository;
+    private final ObjectMapper objectMapper;
 
 
     public Resource generateNewDepartment(String branchName) {
         List<OldDepartmentJson> oldDepartmentJsons = jsonExporter.getOldDepartmentJsons(branchName);
 
         saveDepartmentOldAndNewId(oldDepartmentJsons);
-        List<NewDepartmentJson> newDepartmentJsonList = oldDepartmentJsons.stream().map(DepartmentConverter::convertToNewDepartmentJson).collect(Collectors.toList());
+        List<NewDepartmentJson> newDepartmentJsonList = oldDepartmentJsons.stream().map(oldDepartmentJson -> DepartmentConverter.convertToNewDepartmentJson(oldDepartmentJson, objectMapper)).collect(Collectors.toList());
 
         // String 타입으로 바뀐 departmentId로 설정
         setNewDepartmentId(newDepartmentJsonList);
@@ -58,6 +62,7 @@ public class DepartmentJsonService {
         newDepartmentJsonList.forEach(newDepartmentJson -> {
             setNewDepartmentId(newDepartmentJson);
             setNewParentDepartmentId(newDepartmentJson);
+            setNewHierarchyDepartmentId(newDepartmentJson);
         });
     }
 
@@ -73,6 +78,14 @@ public class DepartmentJsonService {
             DepartmentId parentDepartmentId = departmentIdRepository.findByOldDepartmentId(Long.valueOf(parentDept.getId()))
                 .orElseThrow(() -> new EntityNotFoundException("해당하는 departmentId를 찾지 못했습니다. oldDepartmentId=" + parentDept.getId()));
             parentDept.setNewParentDepartmentId(parentDepartmentId.getNewDepartmentId());
+        });
+    }
+
+    private void setNewHierarchyDepartmentId(NewDepartmentJson newDepartmentJson) {
+        newDepartmentJson.getHierarchies().forEach(hierarchy -> {
+            DepartmentId departmentId = departmentIdRepository.findByOldDepartmentId(Long.valueOf(hierarchy.getId()))
+                .orElseThrow(() -> new EntityNotFoundException("해당하는 departmentId를 찾지 못했습니다. oldDepartmentId=" + hierarchy.getId()));
+            hierarchy.setId(departmentId.getNewDepartmentId());
         });
     }
 

@@ -4,17 +4,25 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
+import java.util.stream.Collectors;
+import me.weekbelt.directorygenerator.persistence.department.NewDepartmentJson.Hierarchy;
 import me.weekbelt.directorygenerator.persistence.department.NewDepartmentJson.ParentDept;
 import me.weekbelt.directorygenerator.persistence.department.NewDepartmentJson.Phone;
 
 public class DepartmentConverter {
 
-    public static NewDepartmentJson convertToNewDepartmentJson(OldDepartmentJson oldDepartmentJson) {
-        ObjectMapper objectMapper = new ObjectMapper();
+    public static NewDepartmentJson convertToNewDepartmentJson(OldDepartmentJson oldDepartmentJson, ObjectMapper objectMapper) {
         Phone phone = createPhone(oldDepartmentJson, objectMapper);
         ParentDept parentDept = createParentDept(oldDepartmentJson);
+        List<Hierarchy> hierarchies = oldDepartmentJson.getHierarchy().stream().map(hierarchy ->
+            Hierarchy.builder()
+                .id(hierarchy.getId())
+                .name(hierarchy.getName())
+                .build()
+        ).collect(Collectors.toList());
 
         return NewDepartmentJson.builder()
             .id(String.valueOf(oldDepartmentJson.getDepartmentID()))
@@ -23,6 +31,8 @@ public class DepartmentConverter {
             .parentDept(parentDept)
             .branchID(oldDepartmentJson.getBchID())
             .synonyms(new ArrayList<>())
+            .depth(hierarchies.size())
+            .hierarchies(hierarchies)
             .build();
     }
 
