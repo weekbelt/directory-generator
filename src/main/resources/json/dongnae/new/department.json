@@ -1,0 +1,4600 @@
+[
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+        "name": "안전도시국"
+      },
+      {
+        "id": "e6835075-296a-421a-b2b2-19972e88684f",
+        "name": "녹지공원과"
+      }
+    ],
+    "id": "29fa8249-3a77-478d-9e10-32a556c6aaa2",
+    "name": "온천천계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4491"
+    },
+    "parentDept": {
+      "id": "e6835075-296a-421a-b2b2-19972e88684f",
+      "name": "녹지공원과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4491"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+        "name": "안전도시국"
+      },
+      {
+        "id": "e6835075-296a-421a-b2b2-19972e88684f",
+        "name": "녹지공원과"
+      }
+    ],
+    "id": "213a706c-949a-40d8-9468-1eb5419bdeab",
+    "name": "산림계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4491"
+    },
+    "parentDept": {
+      "id": "e6835075-296a-421a-b2b2-19972e88684f",
+      "name": "녹지공원과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4491"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+        "name": "안전도시국"
+      },
+      {
+        "id": "e6835075-296a-421a-b2b2-19972e88684f",
+        "name": "녹지공원과"
+      }
+    ],
+    "id": "c0cf30fc-93eb-4e21-84f6-e09073206f1b",
+    "name": "공원계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4491"
+    },
+    "parentDept": {
+      "id": "e6835075-296a-421a-b2b2-19972e88684f",
+      "name": "녹지공원과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4491"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+        "name": "안전도시국"
+      },
+      {
+        "id": "e6835075-296a-421a-b2b2-19972e88684f",
+        "name": "녹지공원과"
+      }
+    ],
+    "id": "a8227fb2-9e12-4b44-a83a-adfa86ce67a3",
+    "name": "녹지계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4491"
+    },
+    "parentDept": {
+      "id": "e6835075-296a-421a-b2b2-19972e88684f",
+      "name": "녹지공원과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4491"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+        "name": "안전도시국"
+      }
+    ],
+    "id": "e6835075-296a-421a-b2b2-19972e88684f",
+    "name": "녹지공원과",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4491"
+    },
+    "parentDept": {
+      "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+      "name": "안전도시국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4631"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+        "name": "안전도시국"
+      },
+      {
+        "id": "92373fde-b51c-40ad-a8a0-298253cc600e",
+        "name": "건축과"
+      }
+    ],
+    "id": "63d10565-ed6a-4f34-a6ae-7fab0008898b",
+    "name": "재개발계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4611"
+    },
+    "parentDept": {
+      "id": "92373fde-b51c-40ad-a8a0-298253cc600e",
+      "name": "건축과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4611"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+        "name": "안전도시국"
+      },
+      {
+        "id": "92373fde-b51c-40ad-a8a0-298253cc600e",
+        "name": "건축과"
+      }
+    ],
+    "id": "ac815ae9-0c53-4d43-b80f-b1d4e140985b",
+    "name": "공동주택관리계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4611"
+    },
+    "parentDept": {
+      "id": "92373fde-b51c-40ad-a8a0-298253cc600e",
+      "name": "건축과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4611"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+        "name": "안전도시국"
+      },
+      {
+        "id": "92373fde-b51c-40ad-a8a0-298253cc600e",
+        "name": "건축과"
+      }
+    ],
+    "id": "bd02a279-2e93-4d39-a075-89e347bc09cb",
+    "name": "주택계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4611"
+    },
+    "parentDept": {
+      "id": "92373fde-b51c-40ad-a8a0-298253cc600e",
+      "name": "건축과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4611"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+        "name": "안전도시국"
+      },
+      {
+        "id": "92373fde-b51c-40ad-a8a0-298253cc600e",
+        "name": "건축과"
+      }
+    ],
+    "id": "d792a348-dca9-4430-a4e3-5272e626b594",
+    "name": "건축계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4611"
+    },
+    "parentDept": {
+      "id": "92373fde-b51c-40ad-a8a0-298253cc600e",
+      "name": "건축과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4611"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+        "name": "안전도시국"
+      },
+      {
+        "id": "92373fde-b51c-40ad-a8a0-298253cc600e",
+        "name": "건축과"
+      }
+    ],
+    "id": "1f272547-9f4a-40b6-bf34-495a359beeeb",
+    "name": "건축행정계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4611"
+    },
+    "parentDept": {
+      "id": "92373fde-b51c-40ad-a8a0-298253cc600e",
+      "name": "건축과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4611"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+        "name": "안전도시국"
+      }
+    ],
+    "id": "92373fde-b51c-40ad-a8a0-298253cc600e",
+    "name": "건축과",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4611"
+    },
+    "parentDept": {
+      "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+      "name": "안전도시국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4631"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+        "name": "안전도시국"
+      },
+      {
+        "id": "11e2be5d-831b-4fce-8216-aed559c90943",
+        "name": "건설과"
+      }
+    ],
+    "id": "3842d74c-1961-4a3f-98b1-02afd2697a49",
+    "name": "하수계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4681"
+    },
+    "parentDept": {
+      "id": "11e2be5d-831b-4fce-8216-aed559c90943",
+      "name": "건설과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4681"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+        "name": "안전도시국"
+      },
+      {
+        "id": "11e2be5d-831b-4fce-8216-aed559c90943",
+        "name": "건설과"
+      }
+    ],
+    "id": "995bbd1f-59bf-49be-9d75-2149ba4c216a",
+    "name": "토목2계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4681"
+    },
+    "parentDept": {
+      "id": "11e2be5d-831b-4fce-8216-aed559c90943",
+      "name": "건설과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4681"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+        "name": "안전도시국"
+      },
+      {
+        "id": "11e2be5d-831b-4fce-8216-aed559c90943",
+        "name": "건설과"
+      }
+    ],
+    "id": "7ab64e84-5dd3-4773-83f8-a43a79a23381",
+    "name": "토목1계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4681"
+    },
+    "parentDept": {
+      "id": "11e2be5d-831b-4fce-8216-aed559c90943",
+      "name": "건설과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4681"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+        "name": "안전도시국"
+      },
+      {
+        "id": "11e2be5d-831b-4fce-8216-aed559c90943",
+        "name": "건설과"
+      }
+    ],
+    "id": "0ff76f5c-4bf9-483e-8d61-27cf26a5178c",
+    "name": "도시계획계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4681"
+    },
+    "parentDept": {
+      "id": "11e2be5d-831b-4fce-8216-aed559c90943",
+      "name": "건설과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4681"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+        "name": "안전도시국"
+      },
+      {
+        "id": "11e2be5d-831b-4fce-8216-aed559c90943",
+        "name": "건설과"
+      }
+    ],
+    "id": "128be2f6-22e2-4fdd-adf0-32dea76b5816",
+    "name": "건설행정계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4681"
+    },
+    "parentDept": {
+      "id": "11e2be5d-831b-4fce-8216-aed559c90943",
+      "name": "건설과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4681"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+        "name": "안전도시국"
+      }
+    ],
+    "id": "11e2be5d-831b-4fce-8216-aed559c90943",
+    "name": "건설과",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4681"
+    },
+    "parentDept": {
+      "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+      "name": "안전도시국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4631"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+        "name": "안전도시국"
+      },
+      {
+        "id": "72e0b1fd-61cb-4de1-ac90-8ecea1bac81c",
+        "name": "도시재생과"
+      }
+    ],
+    "id": "5660e50a-6293-403a-9fef-a91178bef0d4",
+    "name": "도로조명계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4841"
+    },
+    "parentDept": {
+      "id": "72e0b1fd-61cb-4de1-ac90-8ecea1bac81c",
+      "name": "도시재생과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4841"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+        "name": "안전도시국"
+      },
+      {
+        "id": "72e0b1fd-61cb-4de1-ac90-8ecea1bac81c",
+        "name": "도시재생과"
+      }
+    ],
+    "id": "cd0d571d-431e-4806-8d71-61dadcd22ba9",
+    "name": "광고물계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4841"
+    },
+    "parentDept": {
+      "id": "72e0b1fd-61cb-4de1-ac90-8ecea1bac81c",
+      "name": "도시재생과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4841"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+        "name": "안전도시국"
+      },
+      {
+        "id": "72e0b1fd-61cb-4de1-ac90-8ecea1bac81c",
+        "name": "도시재생과"
+      }
+    ],
+    "id": "fb13e1ae-f7f9-4d7c-b40f-dc3fe46a2e6f",
+    "name": "재생사업계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4841"
+    },
+    "parentDept": {
+      "id": "72e0b1fd-61cb-4de1-ac90-8ecea1bac81c",
+      "name": "도시재생과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4841"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+        "name": "안전도시국"
+      },
+      {
+        "id": "72e0b1fd-61cb-4de1-ac90-8ecea1bac81c",
+        "name": "도시재생과"
+      }
+    ],
+    "id": "495b8ff3-0d9b-4a79-bd03-89c9d77e5bad",
+    "name": "재생정책계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4841"
+    },
+    "parentDept": {
+      "id": "72e0b1fd-61cb-4de1-ac90-8ecea1bac81c",
+      "name": "도시재생과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4841"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+        "name": "안전도시국"
+      }
+    ],
+    "id": "72e0b1fd-61cb-4de1-ac90-8ecea1bac81c",
+    "name": "도시재생과",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4841"
+    },
+    "parentDept": {
+      "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+      "name": "안전도시국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4631"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+        "name": "안전도시국"
+      },
+      {
+        "id": "5eb32775-6cfd-4c9d-a4cd-73db3962ede3",
+        "name": "도시안전과"
+      }
+    ],
+    "id": "d7d66153-a2e0-4b78-b4dd-3d426b8db723",
+    "name": "통합관제계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4631"
+    },
+    "parentDept": {
+      "id": "5eb32775-6cfd-4c9d-a4cd-73db3962ede3",
+      "name": "도시안전과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4631"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+        "name": "안전도시국"
+      },
+      {
+        "id": "5eb32775-6cfd-4c9d-a4cd-73db3962ede3",
+        "name": "도시안전과"
+      }
+    ],
+    "id": "c8cf8705-626e-4d78-876e-af00d413b2b8",
+    "name": "재난대응계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4631"
+    },
+    "parentDept": {
+      "id": "5eb32775-6cfd-4c9d-a4cd-73db3962ede3",
+      "name": "도시안전과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4631"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+        "name": "안전도시국"
+      },
+      {
+        "id": "5eb32775-6cfd-4c9d-a4cd-73db3962ede3",
+        "name": "도시안전과"
+      }
+    ],
+    "id": "5d72b287-9305-4943-8de6-749f9c5727f6",
+    "name": "도로관리계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4631"
+    },
+    "parentDept": {
+      "id": "5eb32775-6cfd-4c9d-a4cd-73db3962ede3",
+      "name": "도시안전과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4631"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+        "name": "안전도시국"
+      },
+      {
+        "id": "5eb32775-6cfd-4c9d-a4cd-73db3962ede3",
+        "name": "도시안전과"
+      }
+    ],
+    "id": "24e83470-8429-4a92-9275-db424269e404",
+    "name": "민방위계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4631"
+    },
+    "parentDept": {
+      "id": "5eb32775-6cfd-4c9d-a4cd-73db3962ede3",
+      "name": "도시안전과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4631"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+        "name": "안전도시국"
+      },
+      {
+        "id": "5eb32775-6cfd-4c9d-a4cd-73db3962ede3",
+        "name": "도시안전과"
+      }
+    ],
+    "id": "f304cf57-4e0e-4d39-a9bc-b1ee45f13938",
+    "name": "재난관리계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4631"
+    },
+    "parentDept": {
+      "id": "5eb32775-6cfd-4c9d-a4cd-73db3962ede3",
+      "name": "도시안전과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4631"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+        "name": "안전도시국"
+      }
+    ],
+    "id": "5eb32775-6cfd-4c9d-a4cd-73db3962ede3",
+    "name": "도시안전과",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4631"
+    },
+    "parentDept": {
+      "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+      "name": "안전도시국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4631"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      }
+    ],
+    "id": "2be580e5-4b5f-4fc8-ba8f-90863c0ca773",
+    "name": "안전도시국",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4631"
+    },
+    "parentDept": {
+      "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+      "name": "동래구청",
+      "phone": {
+        "type": "OUTWARD_DIALING",
+        "number": "051-550-4000"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "e0f60084-9bf4-450f-a58a-50fe2b8c05c6",
+        "name": "경제복지국"
+      },
+      {
+        "id": "5200c647-c2a5-4bf4-b7ba-acc31da2540d",
+        "name": "생활보장과"
+      }
+    ],
+    "id": "dcbd06ce-0f07-4a0b-bdad-1f96fbeb79e9",
+    "name": "복지관리2계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4781"
+    },
+    "parentDept": {
+      "id": "5200c647-c2a5-4bf4-b7ba-acc31da2540d",
+      "name": "생활보장과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4781"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "e0f60084-9bf4-450f-a58a-50fe2b8c05c6",
+        "name": "경제복지국"
+      },
+      {
+        "id": "5200c647-c2a5-4bf4-b7ba-acc31da2540d",
+        "name": "생활보장과"
+      }
+    ],
+    "id": "3a7e2bbd-199e-4eba-97e2-59c558f32cdd",
+    "name": "복지관리1계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4781"
+    },
+    "parentDept": {
+      "id": "5200c647-c2a5-4bf4-b7ba-acc31da2540d",
+      "name": "생활보장과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4781"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "e0f60084-9bf4-450f-a58a-50fe2b8c05c6",
+        "name": "경제복지국"
+      },
+      {
+        "id": "5200c647-c2a5-4bf4-b7ba-acc31da2540d",
+        "name": "생활보장과"
+      }
+    ],
+    "id": "1bad4299-f7ab-4ab8-b2ed-78ec5e0ae748",
+    "name": "복지심사계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4781"
+    },
+    "parentDept": {
+      "id": "5200c647-c2a5-4bf4-b7ba-acc31da2540d",
+      "name": "생활보장과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4781"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "e0f60084-9bf4-450f-a58a-50fe2b8c05c6",
+        "name": "경제복지국"
+      },
+      {
+        "id": "5200c647-c2a5-4bf4-b7ba-acc31da2540d",
+        "name": "생활보장과"
+      }
+    ],
+    "id": "30c67cd8-2c18-45b5-b6f1-45b7e12627af",
+    "name": "자활지원계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4781"
+    },
+    "parentDept": {
+      "id": "5200c647-c2a5-4bf4-b7ba-acc31da2540d",
+      "name": "생활보장과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4781"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "e0f60084-9bf4-450f-a58a-50fe2b8c05c6",
+        "name": "경제복지국"
+      },
+      {
+        "id": "5200c647-c2a5-4bf4-b7ba-acc31da2540d",
+        "name": "생활보장과"
+      }
+    ],
+    "id": "631fc6cb-5561-47e8-8ba4-062476648531",
+    "name": "생활보장계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4781"
+    },
+    "parentDept": {
+      "id": "5200c647-c2a5-4bf4-b7ba-acc31da2540d",
+      "name": "생활보장과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4781"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "e0f60084-9bf4-450f-a58a-50fe2b8c05c6",
+        "name": "경제복지국"
+      }
+    ],
+    "id": "5200c647-c2a5-4bf4-b7ba-acc31da2540d",
+    "name": "생활보장과",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4781"
+    },
+    "parentDept": {
+      "id": "e0f60084-9bf4-450f-a58a-50fe2b8c05c6",
+      "name": "경제복지국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4911"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "e0f60084-9bf4-450f-a58a-50fe2b8c05c6",
+        "name": "경제복지국"
+      },
+      {
+        "id": "e33ece71-e99c-4379-942c-999bafd29cba",
+        "name": "교통과"
+      }
+    ],
+    "id": "63d1a327-70c0-4590-9e88-7bb6c8fefde5",
+    "name": "주차과징계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4551"
+    },
+    "parentDept": {
+      "id": "e33ece71-e99c-4379-942c-999bafd29cba",
+      "name": "교통과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4551"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "e0f60084-9bf4-450f-a58a-50fe2b8c05c6",
+        "name": "경제복지국"
+      },
+      {
+        "id": "e33ece71-e99c-4379-942c-999bafd29cba",
+        "name": "교통과"
+      }
+    ],
+    "id": "aeb6192b-6e62-45f3-b2de-111a9d38b310",
+    "name": "주차지도계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4551"
+    },
+    "parentDept": {
+      "id": "e33ece71-e99c-4379-942c-999bafd29cba",
+      "name": "교통과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4551"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "e0f60084-9bf4-450f-a58a-50fe2b8c05c6",
+        "name": "경제복지국"
+      },
+      {
+        "id": "e33ece71-e99c-4379-942c-999bafd29cba",
+        "name": "교통과"
+      }
+    ],
+    "id": "dc55c29e-5bb1-443e-ae5b-6c2a605cd90a",
+    "name": "자동차관리계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4551"
+    },
+    "parentDept": {
+      "id": "e33ece71-e99c-4379-942c-999bafd29cba",
+      "name": "교통과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4551"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "e0f60084-9bf4-450f-a58a-50fe2b8c05c6",
+        "name": "경제복지국"
+      },
+      {
+        "id": "e33ece71-e99c-4379-942c-999bafd29cba",
+        "name": "교통과"
+      }
+    ],
+    "id": "d2259c96-1e1b-46bb-91bd-4f1eb59a9cad",
+    "name": "주차장관리계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4551"
+    },
+    "parentDept": {
+      "id": "e33ece71-e99c-4379-942c-999bafd29cba",
+      "name": "교통과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4551"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "e0f60084-9bf4-450f-a58a-50fe2b8c05c6",
+        "name": "경제복지국"
+      },
+      {
+        "id": "e33ece71-e99c-4379-942c-999bafd29cba",
+        "name": "교통과"
+      }
+    ],
+    "id": "d84ed746-1c7f-4405-962f-f33e8cb9bda2",
+    "name": "교통관리계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4551"
+    },
+    "parentDept": {
+      "id": "e33ece71-e99c-4379-942c-999bafd29cba",
+      "name": "교통과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4551"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "e0f60084-9bf4-450f-a58a-50fe2b8c05c6",
+        "name": "경제복지국"
+      }
+    ],
+    "id": "e33ece71-e99c-4379-942c-999bafd29cba",
+    "name": "교통과",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4551"
+    },
+    "parentDept": {
+      "id": "e0f60084-9bf4-450f-a58a-50fe2b8c05c6",
+      "name": "경제복지국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4911"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "e0f60084-9bf4-450f-a58a-50fe2b8c05c6",
+        "name": "경제복지국"
+      },
+      {
+        "id": "9ad34b24-8ce4-4604-b38b-aeef75bcce1b",
+        "name": "주민복지과"
+      }
+    ],
+    "id": "cf9b4fa7-6ccc-4b19-9672-cfdfe40f9008",
+    "name": "아동드림계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4871"
+    },
+    "parentDept": {
+      "id": "9ad34b24-8ce4-4604-b38b-aeef75bcce1b",
+      "name": "주민복지과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4871"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "e0f60084-9bf4-450f-a58a-50fe2b8c05c6",
+        "name": "경제복지국"
+      },
+      {
+        "id": "9ad34b24-8ce4-4604-b38b-aeef75bcce1b",
+        "name": "주민복지과"
+      }
+    ],
+    "id": "32426120-2530-48f7-b465-73a0df01af8b",
+    "name": "보육계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4871"
+    },
+    "parentDept": {
+      "id": "9ad34b24-8ce4-4604-b38b-aeef75bcce1b",
+      "name": "주민복지과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4871"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "e0f60084-9bf4-450f-a58a-50fe2b8c05c6",
+        "name": "경제복지국"
+      },
+      {
+        "id": "9ad34b24-8ce4-4604-b38b-aeef75bcce1b",
+        "name": "주민복지과"
+      }
+    ],
+    "id": "f6d3de4c-9212-4d25-9e4f-37b7b55c84e5",
+    "name": "장애인복지계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4871"
+    },
+    "parentDept": {
+      "id": "9ad34b24-8ce4-4604-b38b-aeef75bcce1b",
+      "name": "주민복지과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4871"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "e0f60084-9bf4-450f-a58a-50fe2b8c05c6",
+        "name": "경제복지국"
+      },
+      {
+        "id": "9ad34b24-8ce4-4604-b38b-aeef75bcce1b",
+        "name": "주민복지과"
+      }
+    ],
+    "id": "5caac4d6-3b06-417a-bbba-ef0cd028ee61",
+    "name": "어르신복지계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4871"
+    },
+    "parentDept": {
+      "id": "9ad34b24-8ce4-4604-b38b-aeef75bcce1b",
+      "name": "주민복지과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4871"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "e0f60084-9bf4-450f-a58a-50fe2b8c05c6",
+        "name": "경제복지국"
+      }
+    ],
+    "id": "9ad34b24-8ce4-4604-b38b-aeef75bcce1b",
+    "name": "주민복지과",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4871"
+    },
+    "parentDept": {
+      "id": "e0f60084-9bf4-450f-a58a-50fe2b8c05c6",
+      "name": "경제복지국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4911"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "e0f60084-9bf4-450f-a58a-50fe2b8c05c6",
+        "name": "경제복지국"
+      },
+      {
+        "id": "b26c8c92-213d-4891-b3be-462de25922be",
+        "name": "복지정책과"
+      }
+    ],
+    "id": "ed783ad1-92a9-4688-bc39-32a09544fda5",
+    "name": "회망복지계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4311"
+    },
+    "parentDept": {
+      "id": "b26c8c92-213d-4891-b3be-462de25922be",
+      "name": "복지정책과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4311"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "e0f60084-9bf4-450f-a58a-50fe2b8c05c6",
+        "name": "경제복지국"
+      },
+      {
+        "id": "b26c8c92-213d-4891-b3be-462de25922be",
+        "name": "복지정책과"
+      }
+    ],
+    "id": "b07b6faf-a1ee-4f5e-bcc3-38989e71e617",
+    "name": "여성청소년계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4311"
+    },
+    "parentDept": {
+      "id": "b26c8c92-213d-4891-b3be-462de25922be",
+      "name": "복지정책과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4311"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "e0f60084-9bf4-450f-a58a-50fe2b8c05c6",
+        "name": "경제복지국"
+      },
+      {
+        "id": "b26c8c92-213d-4891-b3be-462de25922be",
+        "name": "복지정책과"
+      }
+    ],
+    "id": "2440fa59-7932-4414-b25c-2bb538e71767",
+    "name": "복지기획계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4311"
+    },
+    "parentDept": {
+      "id": "b26c8c92-213d-4891-b3be-462de25922be",
+      "name": "복지정책과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4311"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "e0f60084-9bf4-450f-a58a-50fe2b8c05c6",
+        "name": "경제복지국"
+      }
+    ],
+    "id": "b26c8c92-213d-4891-b3be-462de25922be",
+    "name": "복지정책과",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4311"
+    },
+    "parentDept": {
+      "id": "e0f60084-9bf4-450f-a58a-50fe2b8c05c6",
+      "name": "경제복지국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4911"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "e0f60084-9bf4-450f-a58a-50fe2b8c05c6",
+        "name": "경제복지국"
+      },
+      {
+        "id": "73b8d942-1149-4a1c-896e-fd8b5341992b",
+        "name": "일자리경제과"
+      }
+    ],
+    "id": "942c7d0d-2d03-452a-84ac-59091c659763",
+    "name": "산업계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4911"
+    },
+    "parentDept": {
+      "id": "73b8d942-1149-4a1c-896e-fd8b5341992b",
+      "name": "일자리경제과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4911"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "e0f60084-9bf4-450f-a58a-50fe2b8c05c6",
+        "name": "경제복지국"
+      },
+      {
+        "id": "73b8d942-1149-4a1c-896e-fd8b5341992b",
+        "name": "일자리경제과"
+      }
+    ],
+    "id": "e1fb60fc-6746-41d3-a58e-dffbf829367b",
+    "name": "일자리창출계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4911"
+    },
+    "parentDept": {
+      "id": "73b8d942-1149-4a1c-896e-fd8b5341992b",
+      "name": "일자리경제과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4911"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "e0f60084-9bf4-450f-a58a-50fe2b8c05c6",
+        "name": "경제복지국"
+      },
+      {
+        "id": "73b8d942-1149-4a1c-896e-fd8b5341992b",
+        "name": "일자리경제과"
+      }
+    ],
+    "id": "2824532b-152f-4d9c-8a2a-2730a46aab76",
+    "name": "경제계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4911"
+    },
+    "parentDept": {
+      "id": "73b8d942-1149-4a1c-896e-fd8b5341992b",
+      "name": "일자리경제과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4911"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "e0f60084-9bf4-450f-a58a-50fe2b8c05c6",
+        "name": "경제복지국"
+      }
+    ],
+    "id": "73b8d942-1149-4a1c-896e-fd8b5341992b",
+    "name": "일자리경제과",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4911"
+    },
+    "parentDept": {
+      "id": "e0f60084-9bf4-450f-a58a-50fe2b8c05c6",
+      "name": "경제복지국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4911"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      }
+    ],
+    "id": "e0f60084-9bf4-450f-a58a-50fe2b8c05c6",
+    "name": "경제복지국",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4911"
+    },
+    "parentDept": {
+      "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+      "name": "동래구청",
+      "phone": {
+        "type": "OUTWARD_DIALING",
+        "number": "051-550-4000"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "5c0b9e68-27cf-4956-ac48-7c9dc6762d92",
+        "name": "문화환경국"
+      },
+      {
+        "id": "9daa49c8-4a73-4a14-892d-2bb219eb8bab",
+        "name": "토지정보과"
+      }
+    ],
+    "id": "2a3b6be1-1993-4552-b338-62a430b03317",
+    "name": "지적계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4751"
+    },
+    "parentDept": {
+      "id": "9daa49c8-4a73-4a14-892d-2bb219eb8bab",
+      "name": "토지정보과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4751"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "5c0b9e68-27cf-4956-ac48-7c9dc6762d92",
+        "name": "문화환경국"
+      },
+      {
+        "id": "9daa49c8-4a73-4a14-892d-2bb219eb8bab",
+        "name": "토지정보과"
+      }
+    ],
+    "id": "7dd7e33a-8b32-467c-8673-2bdf4d1d5f6a",
+    "name": "부동산계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4751"
+    },
+    "parentDept": {
+      "id": "9daa49c8-4a73-4a14-892d-2bb219eb8bab",
+      "name": "토지정보과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4751"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "5c0b9e68-27cf-4956-ac48-7c9dc6762d92",
+        "name": "문화환경국"
+      },
+      {
+        "id": "9daa49c8-4a73-4a14-892d-2bb219eb8bab",
+        "name": "토지정보과"
+      }
+    ],
+    "id": "62824e1b-6424-4997-8d90-e63dfb5c3bba",
+    "name": "토지계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4751"
+    },
+    "parentDept": {
+      "id": "9daa49c8-4a73-4a14-892d-2bb219eb8bab",
+      "name": "토지정보과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4751"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "5c0b9e68-27cf-4956-ac48-7c9dc6762d92",
+        "name": "문화환경국"
+      }
+    ],
+    "id": "9daa49c8-4a73-4a14-892d-2bb219eb8bab",
+    "name": "토지정보과",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4751"
+    },
+    "parentDept": {
+      "id": "5c0b9e68-27cf-4956-ac48-7c9dc6762d92",
+      "name": "문화환경국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4061"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "5c0b9e68-27cf-4956-ac48-7c9dc6762d92",
+        "name": "문화환경국"
+      },
+      {
+        "id": "d6f1dfb4-7a0f-489d-9bad-cf8c00d8c000",
+        "name": "환경위생과"
+      }
+    ],
+    "id": "87c9f059-20f5-41c8-be21-329bb8815aaf",
+    "name": "위생지도계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4381"
+    },
+    "parentDept": {
+      "id": "d6f1dfb4-7a0f-489d-9bad-cf8c00d8c000",
+      "name": "환경위생과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4381"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "5c0b9e68-27cf-4956-ac48-7c9dc6762d92",
+        "name": "문화환경국"
+      },
+      {
+        "id": "d6f1dfb4-7a0f-489d-9bad-cf8c00d8c000",
+        "name": "환경위생과"
+      }
+    ],
+    "id": "41e40813-cede-4df4-94c3-977b90c6044a",
+    "name": "위생관리계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4381"
+    },
+    "parentDept": {
+      "id": "d6f1dfb4-7a0f-489d-9bad-cf8c00d8c000",
+      "name": "환경위생과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4381"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "5c0b9e68-27cf-4956-ac48-7c9dc6762d92",
+        "name": "문화환경국"
+      },
+      {
+        "id": "d6f1dfb4-7a0f-489d-9bad-cf8c00d8c000",
+        "name": "환경위생과"
+      }
+    ],
+    "id": "88b9b2ba-786a-422b-8ea7-0cfead1529e8",
+    "name": "환경지도계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4381"
+    },
+    "parentDept": {
+      "id": "d6f1dfb4-7a0f-489d-9bad-cf8c00d8c000",
+      "name": "환경위생과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4381"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "5c0b9e68-27cf-4956-ac48-7c9dc6762d92",
+        "name": "문화환경국"
+      },
+      {
+        "id": "d6f1dfb4-7a0f-489d-9bad-cf8c00d8c000",
+        "name": "환경위생과"
+      }
+    ],
+    "id": "2508b6ea-690a-462c-906f-5b9995c700d2",
+    "name": "환경관리계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4381"
+    },
+    "parentDept": {
+      "id": "d6f1dfb4-7a0f-489d-9bad-cf8c00d8c000",
+      "name": "환경위생과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4381"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "5c0b9e68-27cf-4956-ac48-7c9dc6762d92",
+        "name": "문화환경국"
+      }
+    ],
+    "id": "d6f1dfb4-7a0f-489d-9bad-cf8c00d8c000",
+    "name": "환경위생과",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4381"
+    },
+    "parentDept": {
+      "id": "5c0b9e68-27cf-4956-ac48-7c9dc6762d92",
+      "name": "문화환경국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4061"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "5c0b9e68-27cf-4956-ac48-7c9dc6762d92",
+        "name": "문화환경국"
+      },
+      {
+        "id": "df63eeb8-1c96-4fd3-a335-c3d029e22f8f",
+        "name": "청소과"
+      }
+    ],
+    "id": "ce92977a-9ad9-4d9d-a003-d207a188e413",
+    "name": "오수정화계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4431"
+    },
+    "parentDept": {
+      "id": "df63eeb8-1c96-4fd3-a335-c3d029e22f8f",
+      "name": "청소과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4431"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "5c0b9e68-27cf-4956-ac48-7c9dc6762d92",
+        "name": "문화환경국"
+      },
+      {
+        "id": "df63eeb8-1c96-4fd3-a335-c3d029e22f8f",
+        "name": "청소과"
+      }
+    ],
+    "id": "d91fd0c4-6a77-44b5-916b-a72da17987d0",
+    "name": "재활용계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4431"
+    },
+    "parentDept": {
+      "id": "df63eeb8-1c96-4fd3-a335-c3d029e22f8f",
+      "name": "청소과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4431"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "5c0b9e68-27cf-4956-ac48-7c9dc6762d92",
+        "name": "문화환경국"
+      },
+      {
+        "id": "df63eeb8-1c96-4fd3-a335-c3d029e22f8f",
+        "name": "청소과"
+      }
+    ],
+    "id": "36aeb0a8-8340-4ff1-aca6-30f25aac1924",
+    "name": "청소계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4431"
+    },
+    "parentDept": {
+      "id": "df63eeb8-1c96-4fd3-a335-c3d029e22f8f",
+      "name": "청소과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4431"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "5c0b9e68-27cf-4956-ac48-7c9dc6762d92",
+        "name": "문화환경국"
+      }
+    ],
+    "id": "df63eeb8-1c96-4fd3-a335-c3d029e22f8f",
+    "name": "청소과",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4431"
+    },
+    "parentDept": {
+      "id": "5c0b9e68-27cf-4956-ac48-7c9dc6762d92",
+      "name": "문화환경국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4061"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "5c0b9e68-27cf-4956-ac48-7c9dc6762d92",
+        "name": "문화환경국"
+      },
+      {
+        "id": "8f1b103a-d525-41fd-889b-68dfcf6368b6",
+        "name": "평생교육과"
+      }
+    ],
+    "id": "240f0fe0-2603-4a7e-9c9f-5b665b9f337b",
+    "name": "전산정보계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4461"
+    },
+    "parentDept": {
+      "id": "8f1b103a-d525-41fd-889b-68dfcf6368b6",
+      "name": "평생교육과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4461"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "5c0b9e68-27cf-4956-ac48-7c9dc6762d92",
+        "name": "문화환경국"
+      },
+      {
+        "id": "8f1b103a-d525-41fd-889b-68dfcf6368b6",
+        "name": "평생교육과"
+      }
+    ],
+    "id": "1a5b7d51-9c23-4851-aa3c-9304208b6ba8",
+    "name": "안락누리도서관계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4461"
+    },
+    "parentDept": {
+      "id": "8f1b103a-d525-41fd-889b-68dfcf6368b6",
+      "name": "평생교육과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4461"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "5c0b9e68-27cf-4956-ac48-7c9dc6762d92",
+        "name": "문화환경국"
+      },
+      {
+        "id": "8f1b103a-d525-41fd-889b-68dfcf6368b6",
+        "name": "평생교육과"
+      }
+    ],
+    "id": "25204938-7b9a-4ee2-8374-90c28581674d",
+    "name": "동래읍성도서관계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4461"
+    },
+    "parentDept": {
+      "id": "8f1b103a-d525-41fd-889b-68dfcf6368b6",
+      "name": "평생교육과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4461"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "5c0b9e68-27cf-4956-ac48-7c9dc6762d92",
+        "name": "문화환경국"
+      },
+      {
+        "id": "8f1b103a-d525-41fd-889b-68dfcf6368b6",
+        "name": "평생교육과"
+      }
+    ],
+    "id": "3a99bc64-6e13-48df-93fc-8caed4f032a2",
+    "name": "교육특구계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4461"
+    },
+    "parentDept": {
+      "id": "8f1b103a-d525-41fd-889b-68dfcf6368b6",
+      "name": "평생교육과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4461"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "5c0b9e68-27cf-4956-ac48-7c9dc6762d92",
+        "name": "문화환경국"
+      },
+      {
+        "id": "8f1b103a-d525-41fd-889b-68dfcf6368b6",
+        "name": "평생교육과"
+      }
+    ],
+    "id": "388dfad4-2a23-4453-b5a8-4020d81b70ac",
+    "name": "평생학습계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4461"
+    },
+    "parentDept": {
+      "id": "8f1b103a-d525-41fd-889b-68dfcf6368b6",
+      "name": "평생교육과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4461"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "5c0b9e68-27cf-4956-ac48-7c9dc6762d92",
+        "name": "문화환경국"
+      }
+    ],
+    "id": "8f1b103a-d525-41fd-889b-68dfcf6368b6",
+    "name": "평생교육과",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4461"
+    },
+    "parentDept": {
+      "id": "5c0b9e68-27cf-4956-ac48-7c9dc6762d92",
+      "name": "문화환경국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4061"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "5c0b9e68-27cf-4956-ac48-7c9dc6762d92",
+        "name": "문화환경국"
+      },
+      {
+        "id": "e177f05f-887e-41ef-aff5-4dd4c6f9f914",
+        "name": "문화관광과"
+      }
+    ],
+    "id": "a7348b2e-eff4-41d3-bc50-78c7c7b20e70",
+    "name": "공보계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4061"
+    },
+    "parentDept": {
+      "id": "e177f05f-887e-41ef-aff5-4dd4c6f9f914",
+      "name": "문화관광과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4061"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "5c0b9e68-27cf-4956-ac48-7c9dc6762d92",
+        "name": "문화환경국"
+      },
+      {
+        "id": "e177f05f-887e-41ef-aff5-4dd4c6f9f914",
+        "name": "문화관광과"
+      }
+    ],
+    "id": "f40b302c-8b1c-411c-a440-e05fb98cdf33",
+    "name": "문화재계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4061"
+    },
+    "parentDept": {
+      "id": "e177f05f-887e-41ef-aff5-4dd4c6f9f914",
+      "name": "문화관광과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4061"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "5c0b9e68-27cf-4956-ac48-7c9dc6762d92",
+        "name": "문화환경국"
+      },
+      {
+        "id": "e177f05f-887e-41ef-aff5-4dd4c6f9f914",
+        "name": "문화관광과"
+      }
+    ],
+    "id": "148106e2-e2c0-42cd-9ecc-59233f53a72b",
+    "name": "관광축제계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4061"
+    },
+    "parentDept": {
+      "id": "e177f05f-887e-41ef-aff5-4dd4c6f9f914",
+      "name": "문화관광과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4061"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "5c0b9e68-27cf-4956-ac48-7c9dc6762d92",
+        "name": "문화환경국"
+      },
+      {
+        "id": "e177f05f-887e-41ef-aff5-4dd4c6f9f914",
+        "name": "문화관광과"
+      }
+    ],
+    "id": "3a60828f-f992-4703-b038-da9be65d8884",
+    "name": "문화예술계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4061"
+    },
+    "parentDept": {
+      "id": "e177f05f-887e-41ef-aff5-4dd4c6f9f914",
+      "name": "문화관광과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4061"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "5c0b9e68-27cf-4956-ac48-7c9dc6762d92",
+        "name": "문화환경국"
+      }
+    ],
+    "id": "e177f05f-887e-41ef-aff5-4dd4c6f9f914",
+    "name": "문화관광과",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4061"
+    },
+    "parentDept": {
+      "id": "5c0b9e68-27cf-4956-ac48-7c9dc6762d92",
+      "name": "문화환경국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4061"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      }
+    ],
+    "id": "5c0b9e68-27cf-4956-ac48-7c9dc6762d92",
+    "name": "문화환경국",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4061"
+    },
+    "parentDept": {
+      "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+      "name": "동래구청",
+      "phone": {
+        "type": "OUTWARD_DIALING",
+        "number": "051-550-4000"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "a8cc1610-aef6-45dd-b052-31069de0cd22",
+        "name": "총무국"
+      },
+      {
+        "id": "c0def0c5-af91-441e-a21a-b64c42caa450",
+        "name": "재무과"
+      }
+    ],
+    "id": "63a35232-ace7-46c0-b298-a492bc6734ac",
+    "name": "신청사건립계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4141"
+    },
+    "parentDept": {
+      "id": "c0def0c5-af91-441e-a21a-b64c42caa450",
+      "name": "재무과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4141"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "a8cc1610-aef6-45dd-b052-31069de0cd22",
+        "name": "총무국"
+      },
+      {
+        "id": "c0def0c5-af91-441e-a21a-b64c42caa450",
+        "name": "재무과"
+      }
+    ],
+    "id": "11a197b7-a08a-4c70-9e95-4ef260a30946",
+    "name": "정보통신계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4141"
+    },
+    "parentDept": {
+      "id": "c0def0c5-af91-441e-a21a-b64c42caa450",
+      "name": "재무과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4141"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "a8cc1610-aef6-45dd-b052-31069de0cd22",
+        "name": "총무국"
+      },
+      {
+        "id": "c0def0c5-af91-441e-a21a-b64c42caa450",
+        "name": "재무과"
+      }
+    ],
+    "id": "e911968c-0a98-46c5-9b84-af64ebf109a6",
+    "name": "재산계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4141"
+    },
+    "parentDept": {
+      "id": "c0def0c5-af91-441e-a21a-b64c42caa450",
+      "name": "재무과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4141"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "a8cc1610-aef6-45dd-b052-31069de0cd22",
+        "name": "총무국"
+      },
+      {
+        "id": "c0def0c5-af91-441e-a21a-b64c42caa450",
+        "name": "재무과"
+      }
+    ],
+    "id": "b6183516-b040-4fa7-872c-dab2351b525b",
+    "name": "경리계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4141"
+    },
+    "parentDept": {
+      "id": "c0def0c5-af91-441e-a21a-b64c42caa450",
+      "name": "재무과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4141"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "a8cc1610-aef6-45dd-b052-31069de0cd22",
+        "name": "총무국"
+      }
+    ],
+    "id": "c0def0c5-af91-441e-a21a-b64c42caa450",
+    "name": "재무과",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4141"
+    },
+    "parentDept": {
+      "id": "a8cc1610-aef6-45dd-b052-31069de0cd22",
+      "name": "총무국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4101"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "a8cc1610-aef6-45dd-b052-31069de0cd22",
+        "name": "총무국"
+      },
+      {
+        "id": "46d0980c-0dc7-4739-88f0-6b7eb8a68e53",
+        "name": "민원여권과"
+      }
+    ],
+    "id": "6a02a235-3f6a-46ca-aa8f-6cd8a07b7862",
+    "name": "가족관계등록계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4261"
+    },
+    "parentDept": {
+      "id": "46d0980c-0dc7-4739-88f0-6b7eb8a68e53",
+      "name": "민원여권과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4261"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "a8cc1610-aef6-45dd-b052-31069de0cd22",
+        "name": "총무국"
+      },
+      {
+        "id": "46d0980c-0dc7-4739-88f0-6b7eb8a68e53",
+        "name": "민원여권과"
+      }
+    ],
+    "id": "b481e9c0-470c-475a-8ae2-9c5d3e3e4f36",
+    "name": "여권계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4261"
+    },
+    "parentDept": {
+      "id": "46d0980c-0dc7-4739-88f0-6b7eb8a68e53",
+      "name": "민원여권과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4261"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "a8cc1610-aef6-45dd-b052-31069de0cd22",
+        "name": "총무국"
+      },
+      {
+        "id": "46d0980c-0dc7-4739-88f0-6b7eb8a68e53",
+        "name": "민원여권과"
+      }
+    ],
+    "id": "42660092-c081-4041-a7cf-30fef4acd0ba",
+    "name": "기록물계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4261"
+    },
+    "parentDept": {
+      "id": "46d0980c-0dc7-4739-88f0-6b7eb8a68e53",
+      "name": "민원여권과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4261"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "a8cc1610-aef6-45dd-b052-31069de0cd22",
+        "name": "총무국"
+      },
+      {
+        "id": "46d0980c-0dc7-4739-88f0-6b7eb8a68e53",
+        "name": "민원여권과"
+      }
+    ],
+    "id": "25ad02f8-7e22-40df-92e0-b655f4146e54",
+    "name": "고객만족계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4261"
+    },
+    "parentDept": {
+      "id": "46d0980c-0dc7-4739-88f0-6b7eb8a68e53",
+      "name": "민원여권과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4261"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "a8cc1610-aef6-45dd-b052-31069de0cd22",
+        "name": "총무국"
+      }
+    ],
+    "id": "46d0980c-0dc7-4739-88f0-6b7eb8a68e53",
+    "name": "민원여권과",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4261"
+    },
+    "parentDept": {
+      "id": "a8cc1610-aef6-45dd-b052-31069de0cd22",
+      "name": "총무국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4101"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "a8cc1610-aef6-45dd-b052-31069de0cd22",
+        "name": "총무국"
+      },
+      {
+        "id": "154582e9-745b-4974-aed7-01fb6379d425",
+        "name": "세무2과"
+      }
+    ],
+    "id": "706a0e9e-2380-4747-913b-4def12d3ea4b",
+    "name": "세외수입계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4231"
+    },
+    "parentDept": {
+      "id": "154582e9-745b-4974-aed7-01fb6379d425",
+      "name": "세무2과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4231"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "a8cc1610-aef6-45dd-b052-31069de0cd22",
+        "name": "총무국"
+      },
+      {
+        "id": "154582e9-745b-4974-aed7-01fb6379d425",
+        "name": "세무2과"
+      }
+    ],
+    "id": "d51b850d-5f24-4e01-a5b0-3b0f47f73c90",
+    "name": "체납정리계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4231"
+    },
+    "parentDept": {
+      "id": "154582e9-745b-4974-aed7-01fb6379d425",
+      "name": "세무2과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4231"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "a8cc1610-aef6-45dd-b052-31069de0cd22",
+        "name": "총무국"
+      },
+      {
+        "id": "154582e9-745b-4974-aed7-01fb6379d425",
+        "name": "세무2과"
+      }
+    ],
+    "id": "3defe1ce-dabc-4509-bddf-f96bf3539ff7",
+    "name": "재산세계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4231"
+    },
+    "parentDept": {
+      "id": "154582e9-745b-4974-aed7-01fb6379d425",
+      "name": "세무2과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4231"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "a8cc1610-aef6-45dd-b052-31069de0cd22",
+        "name": "총무국"
+      },
+      {
+        "id": "154582e9-745b-4974-aed7-01fb6379d425",
+        "name": "세무2과"
+      }
+    ],
+    "id": "d106f755-6d2b-43f8-a4dd-f440151f9440",
+    "name": "세입과표계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4231"
+    },
+    "parentDept": {
+      "id": "154582e9-745b-4974-aed7-01fb6379d425",
+      "name": "세무2과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4231"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "a8cc1610-aef6-45dd-b052-31069de0cd22",
+        "name": "총무국"
+      }
+    ],
+    "id": "154582e9-745b-4974-aed7-01fb6379d425",
+    "name": "세무2과",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4231"
+    },
+    "parentDept": {
+      "id": "a8cc1610-aef6-45dd-b052-31069de0cd22",
+      "name": "총무국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4101"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "a8cc1610-aef6-45dd-b052-31069de0cd22",
+        "name": "총무국"
+      },
+      {
+        "id": "7d53249e-2645-47d7-ac53-c943c3845958",
+        "name": "세무1과"
+      }
+    ],
+    "id": "0050acf2-500f-41fc-917c-93eabf03538f",
+    "name": "자동차세계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4181"
+    },
+    "parentDept": {
+      "id": "7d53249e-2645-47d7-ac53-c943c3845958",
+      "name": "세무1과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4181"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "a8cc1610-aef6-45dd-b052-31069de0cd22",
+        "name": "총무국"
+      },
+      {
+        "id": "7d53249e-2645-47d7-ac53-c943c3845958",
+        "name": "세무1과"
+      }
+    ],
+    "id": "0554b3cb-91b3-4151-be33-c51ac1e27be2",
+    "name": "지방소득세계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4181"
+    },
+    "parentDept": {
+      "id": "7d53249e-2645-47d7-ac53-c943c3845958",
+      "name": "세무1과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4181"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "a8cc1610-aef6-45dd-b052-31069de0cd22",
+        "name": "총무국"
+      },
+      {
+        "id": "7d53249e-2645-47d7-ac53-c943c3845958",
+        "name": "세무1과"
+      }
+    ],
+    "id": "83449c76-b8cc-4a24-b518-0ed999d1c742",
+    "name": "취득세계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4181"
+    },
+    "parentDept": {
+      "id": "7d53249e-2645-47d7-ac53-c943c3845958",
+      "name": "세무1과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4181"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "a8cc1610-aef6-45dd-b052-31069de0cd22",
+        "name": "총무국"
+      },
+      {
+        "id": "7d53249e-2645-47d7-ac53-c943c3845958",
+        "name": "세무1과"
+      }
+    ],
+    "id": "2f4cb6f9-ab8c-4b37-a8b1-b499c23f84e7",
+    "name": "세무관리계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4181"
+    },
+    "parentDept": {
+      "id": "7d53249e-2645-47d7-ac53-c943c3845958",
+      "name": "세무1과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4181"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "a8cc1610-aef6-45dd-b052-31069de0cd22",
+        "name": "총무국"
+      }
+    ],
+    "id": "7d53249e-2645-47d7-ac53-c943c3845958",
+    "name": "세무1과",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4181"
+    },
+    "parentDept": {
+      "id": "a8cc1610-aef6-45dd-b052-31069de0cd22",
+      "name": "총무국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4101"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "a8cc1610-aef6-45dd-b052-31069de0cd22",
+        "name": "총무국"
+      },
+      {
+        "id": "f24a5a49-2047-4368-bc62-db26ff589530",
+        "name": "총무과"
+      }
+    ],
+    "id": "52d79cc1-4eaf-41d9-babb-aeda92ce1248",
+    "name": "체육계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4101"
+    },
+    "parentDept": {
+      "id": "f24a5a49-2047-4368-bc62-db26ff589530",
+      "name": "총무과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4101"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "a8cc1610-aef6-45dd-b052-31069de0cd22",
+        "name": "총무국"
+      },
+      {
+        "id": "f24a5a49-2047-4368-bc62-db26ff589530",
+        "name": "총무과"
+      }
+    ],
+    "id": "84d12ef0-9975-4468-bc6f-95996458a424",
+    "name": "구민협력계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4101"
+    },
+    "parentDept": {
+      "id": "f24a5a49-2047-4368-bc62-db26ff589530",
+      "name": "총무과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4101"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "a8cc1610-aef6-45dd-b052-31069de0cd22",
+        "name": "총무국"
+      },
+      {
+        "id": "f24a5a49-2047-4368-bc62-db26ff589530",
+        "name": "총무과"
+      }
+    ],
+    "id": "a5d6f343-7993-4fdb-86bc-486eac5a2842",
+    "name": "자치행정계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4101"
+    },
+    "parentDept": {
+      "id": "f24a5a49-2047-4368-bc62-db26ff589530",
+      "name": "총무과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4101"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "a8cc1610-aef6-45dd-b052-31069de0cd22",
+        "name": "총무국"
+      },
+      {
+        "id": "f24a5a49-2047-4368-bc62-db26ff589530",
+        "name": "총무과"
+      }
+    ],
+    "id": "fe6cb6fb-4982-4f99-a1ac-25b93a837573",
+    "name": "총무계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4101"
+    },
+    "parentDept": {
+      "id": "f24a5a49-2047-4368-bc62-db26ff589530",
+      "name": "총무과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4101"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "a8cc1610-aef6-45dd-b052-31069de0cd22",
+        "name": "총무국"
+      }
+    ],
+    "id": "f24a5a49-2047-4368-bc62-db26ff589530",
+    "name": "총무과",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4101"
+    },
+    "parentDept": {
+      "id": "a8cc1610-aef6-45dd-b052-31069de0cd22",
+      "name": "총무국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4101"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      }
+    ],
+    "id": "a8cc1610-aef6-45dd-b052-31069de0cd22",
+    "name": "총무국",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4101"
+    },
+    "parentDept": {
+      "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+      "name": "동래구청",
+      "phone": {
+        "type": "OUTWARD_DIALING",
+        "number": "051-550-4000"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "78fa0539-334d-4229-9dd0-8128fcacbc2a",
+        "name": "기획감사실"
+      }
+    ],
+    "id": "331ae7a7-c44a-4a70-acb7-a75b9b81730c",
+    "name": "통계빅데이터계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4011"
+    },
+    "parentDept": {
+      "id": "78fa0539-334d-4229-9dd0-8128fcacbc2a",
+      "name": "기획감사실",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4011"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "78fa0539-334d-4229-9dd0-8128fcacbc2a",
+        "name": "기획감사실"
+      }
+    ],
+    "id": "6eb9d973-3662-4210-bdb9-d40e3a5068d8",
+    "name": "감사계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4011"
+    },
+    "parentDept": {
+      "id": "78fa0539-334d-4229-9dd0-8128fcacbc2a",
+      "name": "기획감사실",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4011"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "78fa0539-334d-4229-9dd0-8128fcacbc2a",
+        "name": "기획감사실"
+      }
+    ],
+    "id": "c35475b0-d785-416e-b508-27f6fd87087f",
+    "name": "법무조직계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4011"
+    },
+    "parentDept": {
+      "id": "78fa0539-334d-4229-9dd0-8128fcacbc2a",
+      "name": "기획감사실",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4011"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "78fa0539-334d-4229-9dd0-8128fcacbc2a",
+        "name": "기획감사실"
+      }
+    ],
+    "id": "6f5604cb-a694-4e76-8e84-93ad6bc8a167",
+    "name": "예산계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4011"
+    },
+    "parentDept": {
+      "id": "78fa0539-334d-4229-9dd0-8128fcacbc2a",
+      "name": "기획감사실",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4011"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "78fa0539-334d-4229-9dd0-8128fcacbc2a",
+        "name": "기획감사실"
+      }
+    ],
+    "id": "4f45b575-838d-4252-bf3b-2fbb89cebe55",
+    "name": "기획계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4011"
+    },
+    "parentDept": {
+      "id": "78fa0539-334d-4229-9dd0-8128fcacbc2a",
+      "name": "기획감사실",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "4011"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      }
+    ],
+    "id": "78fa0539-334d-4229-9dd0-8128fcacbc2a",
+    "name": "기획감사실",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4011"
+    },
+    "parentDept": {
+      "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+      "name": "동래구청",
+      "phone": {
+        "type": "OUTWARD_DIALING",
+        "number": "051-550-4000"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "7a723ed5-7114-48f4-a640-b6e5309a9fc8",
+        "name": "의회사무국"
+      }
+    ],
+    "id": "4333dcfa-e681-4a14-b7d1-e39c81afc193",
+    "name": "의사계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "6652"
+    },
+    "parentDept": {
+      "id": "7a723ed5-7114-48f4-a640-b6e5309a9fc8",
+      "name": "의회사무국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6652"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "7a723ed5-7114-48f4-a640-b6e5309a9fc8",
+        "name": "의회사무국"
+      }
+    ],
+    "id": "eb745bc3-7e97-45d0-865a-1dbe7575b317",
+    "name": "의정계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "6652"
+    },
+    "parentDept": {
+      "id": "7a723ed5-7114-48f4-a640-b6e5309a9fc8",
+      "name": "의회사무국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6652"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      }
+    ],
+    "id": "7a723ed5-7114-48f4-a640-b6e5309a9fc8",
+    "name": "의회사무국",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "6652"
+    },
+    "parentDept": {
+      "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+      "name": "동래구청",
+      "phone": {
+        "type": "OUTWARD_DIALING",
+        "number": "051-550-4000"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      }
+    ],
+    "id": "56949085-9705-4361-863c-8a1bcaef4d60",
+    "name": "명장2동",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "6561"
+    },
+    "parentDept": {
+      "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+      "name": "동래구청",
+      "phone": {
+        "type": "OUTWARD_DIALING",
+        "number": "051-550-4000"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      }
+    ],
+    "id": "6e329803-434f-4a82-957d-afe12386de6d",
+    "name": "명장1동",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "6541"
+    },
+    "parentDept": {
+      "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+      "name": "동래구청",
+      "phone": {
+        "type": "OUTWARD_DIALING",
+        "number": "051-550-4000"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      }
+    ],
+    "id": "7334325b-5de1-4f8b-896f-38c9455e5559",
+    "name": "안락2동",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "6521"
+    },
+    "parentDept": {
+      "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+      "name": "동래구청",
+      "phone": {
+        "type": "OUTWARD_DIALING",
+        "number": "051-550-4000"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      }
+    ],
+    "id": "53981eea-3663-40db-bdff-848fb8b16e09",
+    "name": "안락1동",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "6501"
+    },
+    "parentDept": {
+      "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+      "name": "동래구청",
+      "phone": {
+        "type": "OUTWARD_DIALING",
+        "number": "051-550-4000"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      }
+    ],
+    "id": "01db3b41-d93e-49c5-810f-bd6e7f1348c3",
+    "name": "사직3동",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "6481"
+    },
+    "parentDept": {
+      "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+      "name": "동래구청",
+      "phone": {
+        "type": "OUTWARD_DIALING",
+        "number": "051-550-4000"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      }
+    ],
+    "id": "050ebda4-4154-4519-86b8-65b0e96b83a5",
+    "name": "사직2동",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "6461"
+    },
+    "parentDept": {
+      "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+      "name": "동래구청",
+      "phone": {
+        "type": "OUTWARD_DIALING",
+        "number": "051-550-4000"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      }
+    ],
+    "id": "d20d8b60-c8b0-487e-8939-26393dde32d8",
+    "name": "부구청장실",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4100"
+    },
+    "parentDept": {
+      "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+      "name": "동래구청",
+      "phone": {
+        "type": "OUTWARD_DIALING",
+        "number": "051-550-4000"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      }
+    ],
+    "id": "3a4e1f2e-792d-4583-afaa-c2df3555ad68",
+    "name": "사직1동",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "6441"
+    },
+    "parentDept": {
+      "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+      "name": "동래구청",
+      "phone": {
+        "type": "OUTWARD_DIALING",
+        "number": "051-550-4000"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      }
+    ],
+    "id": "14aac3ca-4027-40fd-8728-045fd7d8d5f9",
+    "name": "온천3동",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "6424"
+    },
+    "parentDept": {
+      "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+      "name": "동래구청",
+      "phone": {
+        "type": "OUTWARD_DIALING",
+        "number": "051-550-4000"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      }
+    ],
+    "id": "f3d5c30b-f081-4303-9aea-59453c26f28b",
+    "name": "온천2동",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "6401"
+    },
+    "parentDept": {
+      "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+      "name": "동래구청",
+      "phone": {
+        "type": "OUTWARD_DIALING",
+        "number": "051-550-4000"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      }
+    ],
+    "id": "e68bdfd3-85e5-44fe-b2fb-21ca76e796a5",
+    "name": "온천1동",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "6381"
+    },
+    "parentDept": {
+      "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+      "name": "동래구청",
+      "phone": {
+        "type": "OUTWARD_DIALING",
+        "number": "051-550-4000"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      }
+    ],
+    "id": "f3f4699d-000b-4dda-96f1-8a4c5a86e8a3",
+    "name": "명륜동",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "6361"
+    },
+    "parentDept": {
+      "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+      "name": "동래구청",
+      "phone": {
+        "type": "OUTWARD_DIALING",
+        "number": "051-550-4000"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      }
+    ],
+    "id": "43272e7e-3181-4f08-82e1-5c76edcd0e26",
+    "name": "복산동",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "6321"
+    },
+    "parentDept": {
+      "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+      "name": "동래구청",
+      "phone": {
+        "type": "OUTWARD_DIALING",
+        "number": "051-550-4000"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      }
+    ],
+    "id": "e785285f-1cec-4206-9579-7d77c9f4419e",
+    "name": "수민동",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "6301"
+    },
+    "parentDept": {
+      "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+      "name": "동래구청",
+      "phone": {
+        "type": "OUTWARD_DIALING",
+        "number": "051-550-4000"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "7df59c1c-26af-4e92-b0d1-8302db93af2a",
+        "name": "문화시설사업소"
+      }
+    ],
+    "id": "f35f07de-974a-48f9-bd2e-d333b2df5a09",
+    "name": "문화사업계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "6614"
+    },
+    "parentDept": {
+      "id": "7df59c1c-26af-4e92-b0d1-8302db93af2a",
+      "name": "문화시설사업소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6614"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "7df59c1c-26af-4e92-b0d1-8302db93af2a",
+        "name": "문화시설사업소"
+      }
+    ],
+    "id": "59601f5b-8527-49b9-bafc-63d5fb301593",
+    "name": "공연시설계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "6614"
+    },
+    "parentDept": {
+      "id": "7df59c1c-26af-4e92-b0d1-8302db93af2a",
+      "name": "문화시설사업소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6614"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "7df59c1c-26af-4e92-b0d1-8302db93af2a",
+        "name": "문화시설사업소"
+      }
+    ],
+    "id": "79bd08c6-5d33-4503-81c4-8a5bf072201e",
+    "name": "운영계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "6614"
+    },
+    "parentDept": {
+      "id": "7df59c1c-26af-4e92-b0d1-8302db93af2a",
+      "name": "문화시설사업소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6614"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      }
+    ],
+    "id": "7df59c1c-26af-4e92-b0d1-8302db93af2a",
+    "name": "문화시설사업소",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "6614"
+    },
+    "parentDept": {
+      "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+      "name": "동래구청",
+      "phone": {
+        "type": "OUTWARD_DIALING",
+        "number": "051-550-4000"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "273f62e1-2f49-4ba5-b128-ffc3293ae545",
+        "name": "보건소"
+      },
+      {
+        "id": "cbcbf017-8a41-47a2-9612-453d89574945",
+        "name": "건강증진과"
+      }
+    ],
+    "id": "53cbe88e-ee51-4405-b60e-97b55ccf2d6f",
+    "name": "동건강지원계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "6741"
+    },
+    "parentDept": {
+      "id": "cbcbf017-8a41-47a2-9612-453d89574945",
+      "name": "건강증진과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6741"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "273f62e1-2f49-4ba5-b128-ffc3293ae545",
+        "name": "보건소"
+      },
+      {
+        "id": "cbcbf017-8a41-47a2-9612-453d89574945",
+        "name": "건강증진과"
+      }
+    ],
+    "id": "ba8ef79f-92aa-40b4-af82-0ade7caa64a9",
+    "name": "지역보건계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "6741"
+    },
+    "parentDept": {
+      "id": "cbcbf017-8a41-47a2-9612-453d89574945",
+      "name": "건강증진과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6741"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "273f62e1-2f49-4ba5-b128-ffc3293ae545",
+        "name": "보건소"
+      },
+      {
+        "id": "cbcbf017-8a41-47a2-9612-453d89574945",
+        "name": "건강증진과"
+      }
+    ],
+    "id": "b0fa98c2-cc87-40de-a323-8f73b26cd69c",
+    "name": "건강증진계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "6741"
+    },
+    "parentDept": {
+      "id": "cbcbf017-8a41-47a2-9612-453d89574945",
+      "name": "건강증진과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6741"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "273f62e1-2f49-4ba5-b128-ffc3293ae545",
+        "name": "보건소"
+      }
+    ],
+    "id": "cbcbf017-8a41-47a2-9612-453d89574945",
+    "name": "건강증진과",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "6741"
+    },
+    "parentDept": {
+      "id": "273f62e1-2f49-4ba5-b128-ffc3293ae545",
+      "name": "보건소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6711"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "273f62e1-2f49-4ba5-b128-ffc3293ae545",
+        "name": "보건소"
+      },
+      {
+        "id": "f7a6f214-dd7a-499b-9cae-540f4fe6b1a0",
+        "name": "보건행정과"
+      }
+    ],
+    "id": "b40e35e3-1490-4774-b9b7-4bf9bc98ab83",
+    "name": "감염병대응계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "6711"
+    },
+    "parentDept": {
+      "id": "f7a6f214-dd7a-499b-9cae-540f4fe6b1a0",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6711"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "273f62e1-2f49-4ba5-b128-ffc3293ae545",
+        "name": "보건소"
+      },
+      {
+        "id": "f7a6f214-dd7a-499b-9cae-540f4fe6b1a0",
+        "name": "보건행정과"
+      }
+    ],
+    "id": "d6f8b6f7-880c-4a4d-acd6-f808ee6b8b57",
+    "name": "감염병예방계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "6711"
+    },
+    "parentDept": {
+      "id": "f7a6f214-dd7a-499b-9cae-540f4fe6b1a0",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6711"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "273f62e1-2f49-4ba5-b128-ffc3293ae545",
+        "name": "보건소"
+      },
+      {
+        "id": "f7a6f214-dd7a-499b-9cae-540f4fe6b1a0",
+        "name": "보건행정과"
+      }
+    ],
+    "id": "10f1f09c-9bff-4d1d-9491-9467bc4d52f4",
+    "name": "의약계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "6711"
+    },
+    "parentDept": {
+      "id": "f7a6f214-dd7a-499b-9cae-540f4fe6b1a0",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6711"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "273f62e1-2f49-4ba5-b128-ffc3293ae545",
+        "name": "보건소"
+      },
+      {
+        "id": "f7a6f214-dd7a-499b-9cae-540f4fe6b1a0",
+        "name": "보건행정과"
+      }
+    ],
+    "id": "7e5d085b-9a74-4003-a79b-88cb7f53fc17",
+    "name": "보건행정계",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "6711"
+    },
+    "parentDept": {
+      "id": "f7a6f214-dd7a-499b-9cae-540f4fe6b1a0",
+      "name": "보건행정과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6711"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      },
+      {
+        "id": "273f62e1-2f49-4ba5-b128-ffc3293ae545",
+        "name": "보건소"
+      }
+    ],
+    "id": "f7a6f214-dd7a-499b-9cae-540f4fe6b1a0",
+    "name": "보건행정과",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "6711"
+    },
+    "parentDept": {
+      "id": "273f62e1-2f49-4ba5-b128-ffc3293ae545",
+      "name": "보건소",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "6711"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      }
+    ],
+    "id": "273f62e1-2f49-4ba5-b128-ffc3293ae545",
+    "name": "보건소",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "6711"
+    },
+    "parentDept": {
+      "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+      "name": "동래구청",
+      "phone": {
+        "type": "OUTWARD_DIALING",
+        "number": "051-550-4000"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+        "name": "동래구청"
+      }
+    ],
+    "id": "11d1d27f-b024-4d1d-a2f0-66108f8ad939",
+    "name": "구청장실",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "4001"
+    },
+    "parentDept": {
+      "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+      "name": "동래구청",
+      "phone": {
+        "type": "OUTWARD_DIALING",
+        "number": "051-550-4000"
+      }
+    },
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 0,
+    "hierarchies": [],
+    "id": "7ef7c0aa-195c-49f5-992e-607868ebb477",
+    "name": "동래구청",
+    "phone": {
+      "type": "OUTWARD_DIALING",
+      "number": "051-550-4000"
+    },
+    "parentDept": null,
+    "branchID": "510aa611-5e3a-4e37-90a4-d5f98a8d2d48",
+    "synonyms": [],
+    "areas": null
+  }
+]

@@ -62,7 +62,8 @@ public class DepartmentConverter {
         return optionalParentDept.map(parentDept -> {
             Phone phone = Phone.builder()
                 .number(parentDept.getPhone().getNumber())
-                .type("INWARD_DIALING")
+//                .type("INWARD_DIALING")
+                .type(Objects.requireNonNull(parentDept.getPhone()).getType().equals("내선") ? "INWARD_DIALING" : "OUTWARD_DIALING")
                 .build();
             return NewDepartmentJson.ParentDept.builder()
                 .id(String.valueOf(parentDept.getId()))
