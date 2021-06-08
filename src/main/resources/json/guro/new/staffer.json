@@ -1,0 +1,497 @@
+[
+  {
+    "id": "2c07a2eb-7055-4e9f-b2ed-821e590f6666",
+    "name": "김현길",
+    "stafferPhone": {
+      "type": "INWARD_DIALING",
+      "number": "3185"
+    },
+    "departmentPhone": {
+      "type": "INWARD_DIALING",
+      "number": "3186"
+    },
+    "departmentId": "42a96fcc-4796-44b1-88e3-415f9ba1716f",
+    "departmentName": "주차관리팀",
+    "jobs": [
+      "일일실적관리"
+    ],
+    "positions": [
+      "팀장",
+      "주차관리팀장"
+    ],
+    "areas": [],
+    "branchId": "afe73141-bbc3-44ca-8bbe-c6215740f564"
+  },
+  {
+    "id": "b0cbd3f8-09c4-471a-b001-1062d53be62b",
+    "name": "양기봉",
+    "stafferPhone": {
+      "type": "INWARD_DIALING",
+      "number": "2598"
+    },
+    "departmentPhone": {
+      "type": "INWARD_DIALING",
+      "number": "3186"
+    },
+    "departmentId": "42a96fcc-4796-44b1-88e3-415f9ba1716f",
+    "departmentName": "주차관리팀",
+    "jobs": [
+      "견인",
+      "견인대행비",
+      "납부",
+      "주차표지판"
+    ],
+    "positions": [
+      ""
+    ],
+    "areas": [],
+    "branchId": "afe73141-bbc3-44ca-8bbe-c6215740f564"
+  },
+  {
+    "id": "bc9acb71-1f8d-4105-b30e-0cf582a185b2",
+    "name": "안주희",
+    "stafferPhone": {
+      "type": "INWARD_DIALING",
+      "number": "2454"
+    },
+    "departmentPhone": {
+      "type": "INWARD_DIALING",
+      "number": "3186"
+    },
+    "departmentId": "42a96fcc-4796-44b1-88e3-415f9ba1716f",
+    "departmentName": "주차관리팀",
+    "jobs": [
+      "무인주차단속",
+      "CCTV구축",
+      "CCTV관리",
+      "단속차량",
+      "주행",
+      "CCTV",
+      "전기요금",
+      "문자알리미",
+      "통신비",
+      "전용회선비",
+      "PDA",
+      "단속폰",
+      "단속",
+      "보상금"
+    ],
+    "positions": [
+      ""
+    ],
+    "areas": [],
+    "branchId": "afe73141-bbc3-44ca-8bbe-c6215740f564"
+  },
+  {
+    "id": "70ca2311-5028-40f4-9e30-33aa58fbe3f7",
+    "name": "김태수",
+    "stafferPhone": {
+      "type": "INWARD_DIALING",
+      "number": "3183"
+    },
+    "departmentPhone": {
+      "type": "INWARD_DIALING",
+      "number": "3186"
+    },
+    "departmentId": "42a96fcc-4796-44b1-88e3-415f9ba1716f",
+    "departmentName": "주차관리팀",
+    "jobs": [
+      "불법주차",
+      "불법주정차",
+      "단속",
+      "시간선택제",
+      "임기제",
+      "공무원",
+      "포상금"
+    ],
+    "positions": [
+      ""
+    ],
+    "areas": [],
+    "branchId": "afe73141-bbc3-44ca-8bbe-c6215740f564"
+  },
+  {
+    "id": "fbfcf2e5-26b0-4780-b9f8-89644ce75a86",
+    "name": "진재군",
+    "stafferPhone": {
+      "type": "INWARD_DIALING",
+      "number": "2691"
+    },
+    "departmentPhone": {
+      "type": "INWARD_DIALING",
+      "number": "3186"
+    },
+    "departmentId": "42a96fcc-4796-44b1-88e3-415f9ba1716f",
+    "departmentName": "주차관리팀",
+    "jobs": [
+      "단속자료",
+      "사전통지서발송",
+      "발송",
+      "사전통지서관리"
+    ],
+    "positions": [
+      ""
+    ],
+    "areas": [],
+    "branchId": "afe73141-bbc3-44ca-8bbe-c6215740f564"
+  },
+  {
+    "id": "7c5f225d-24dd-4f21-bdb2-21071e5b0a80",
+    "name": "성태욱",
+    "stafferPhone": {
+      "type": "INWARD_DIALING",
+      "number": "3190"
+    },
+    "departmentPhone": {
+      "type": "INWARD_DIALING",
+      "number": "3186"
+    },
+    "departmentId": "42a96fcc-4796-44b1-88e3-415f9ba1716f",
+    "departmentName": "주차관리팀",
+    "jobs": [
+      "불법주차",
+      "의견진술",
+      "불법주정차",
+      "의견진술접수",
+      "심의관련",
+      "사회적약자"
+    ],
+    "positions": [
+      ""
+    ],
+    "areas": [],
+    "branchId": "afe73141-bbc3-44ca-8bbe-c6215740f564"
+  },
+  {
+    "id": "121ed5ec-b583-45ac-ab6d-cc7ac8e924b3",
+    "name": "김태균",
+    "stafferPhone": {
+      "type": "INWARD_DIALING",
+      "number": "3188"
+    },
+    "departmentPhone": {
+      "type": "INWARD_DIALING",
+      "number": "3186"
+    },
+    "departmentId": "42a96fcc-4796-44b1-88e3-415f9ba1716f",
+    "departmentName": "주차관리팀",
+    "jobs": [
+      "응답소",
+      "민원접수",
+      "단속",
+      "유류비지급",
+      "보험",
+      "사회복무요원"
+    ],
+    "positions": [
+      ""
+    ],
+    "areas": [],
+    "branchId": "afe73141-bbc3-44ca-8bbe-c6215740f564"
+  },
+  {
+    "id": "092a0174-5ce4-47e5-a810-4f030d1164b9",
+    "name": "최나은",
+    "stafferPhone": {
+      "type": "INWARD_DIALING",
+      "number": "3191"
+    },
+    "departmentPhone": {
+      "type": "INWARD_DIALING",
+      "number": "3186"
+    },
+    "departmentId": "42a96fcc-4796-44b1-88e3-415f9ba1716f",
+    "departmentName": "주차관리팀",
+    "jobs": [
+      "스마트불편",
+      "안전신문고",
+      "생활불편신고",
+      "불편신고",
+      "주차금지선"
+    ],
+    "positions": [
+      ""
+    ],
+    "areas": [],
+    "branchId": "afe73141-bbc3-44ca-8bbe-c6215740f564"
+  },
+  {
+    "id": "2ea2523c-aa09-41ce-9677-d19b1d1b562d",
+    "name": "양선옥",
+    "stafferPhone": {
+      "type": "INWARD_DIALING",
+      "number": "3197"
+    },
+    "departmentPhone": {
+      "type": "INWARD_DIALING",
+      "number": "3198"
+    },
+    "departmentId": "dea67851-75ab-48b9-bf3a-6ffa0b5ebd3f",
+    "departmentName": "주차기획팀",
+    "jobs": [
+      "버스전용차로",
+      "버스전용차로위반"
+    ],
+    "positions": [
+      ""
+    ],
+    "areas": [],
+    "branchId": "afe73141-bbc3-44ca-8bbe-c6215740f564"
+  },
+  {
+    "id": "6e105bae-189d-4e0f-bf49-37b782069b46",
+    "name": "김성부",
+    "stafferPhone": {
+      "type": "INWARD_DIALING",
+      "number": "2134"
+    },
+    "departmentPhone": {
+      "type": "INWARD_DIALING",
+      "number": "3198"
+    },
+    "departmentId": "dea67851-75ab-48b9-bf3a-6ffa0b5ebd3f",
+    "departmentName": "주차기획팀",
+    "jobs": [
+      "그린파킹",
+      "담장허물기",
+      "주차장만들기"
+    ],
+    "positions": [
+      ""
+    ],
+    "areas": [],
+    "branchId": "afe73141-bbc3-44ca-8bbe-c6215740f564"
+  },
+  {
+    "id": "b141c3ac-7e06-4cac-88b0-35deb305083d",
+    "name": "마민아",
+    "stafferPhone": {
+      "type": "INWARD_DIALING",
+      "number": "2688"
+    },
+    "departmentPhone": {
+      "type": "INWARD_DIALING",
+      "number": "3198"
+    },
+    "departmentId": "dea67851-75ab-48b9-bf3a-6ffa0b5ebd3f",
+    "departmentName": "주차기획팀",
+    "jobs": [
+      "공영주차장"
+    ],
+    "positions": [
+      ""
+    ],
+    "areas": [],
+    "branchId": "afe73141-bbc3-44ca-8bbe-c6215740f564"
+  },
+  {
+    "id": "751f2dee-b475-43f9-b606-993ca5c9cffa",
+    "name": "최도훈",
+    "stafferPhone": {
+      "type": "INWARD_DIALING",
+      "number": "3198"
+    },
+    "departmentPhone": {
+      "type": "INWARD_DIALING",
+      "number": "2086"
+    },
+    "departmentId": "dea67851-75ab-48b9-bf3a-6ffa0b5ebd3f",
+    "departmentName": "주차기획팀",
+    "jobs": [
+      "거주자우선주차",
+      "노상주차",
+      "주택가",
+      "주차공간"
+    ],
+    "positions": [
+      ""
+    ],
+    "areas": [],
+    "branchId": "afe73141-bbc3-44ca-8bbe-c6215740f564"
+  },
+  {
+    "id": "e01637cf-34eb-4131-990a-c9b4c3cb42ff",
+    "name": "진명정",
+    "stafferPhone": {
+      "type": "INWARD_DIALING",
+      "number": "2106"
+    },
+    "departmentPhone": {
+      "type": "INWARD_DIALING",
+      "number": "2132"
+    },
+    "departmentId": "69e6e754-d0de-418f-9689-fa220bf00770",
+    "departmentName": "주차시설팀",
+    "jobs": [
+      "주차장건설"
+    ],
+    "positions": [
+      ""
+    ],
+    "areas": [],
+    "branchId": "afe73141-bbc3-44ca-8bbe-c6215740f564"
+  },
+  {
+    "id": "3591286c-31bc-4b7a-b246-2e273fedf5a7",
+    "name": "구예니",
+    "stafferPhone": {
+      "type": "INWARD_DIALING",
+      "number": "2130"
+    },
+    "departmentPhone": {
+      "type": "INWARD_DIALING",
+      "number": "2132"
+    },
+    "departmentId": "69e6e754-d0de-418f-9689-fa220bf00770",
+    "departmentName": "주차시설팀",
+    "jobs": [
+      "주차장건설"
+    ],
+    "positions": [
+      ""
+    ],
+    "areas": [],
+    "branchId": "afe73141-bbc3-44ca-8bbe-c6215740f564"
+  },
+  {
+    "id": "d7453fd2-f85c-4fb2-9168-197ec03d6ee7",
+    "name": "배성민",
+    "stafferPhone": {
+      "type": "INWARD_DIALING",
+      "number": "2131"
+    },
+    "departmentPhone": {
+      "type": "INWARD_DIALING",
+      "number": "2132"
+    },
+    "departmentId": "69e6e754-d0de-418f-9689-fa220bf00770",
+    "departmentName": "주차시설팀",
+    "jobs": [
+      "주차장건설"
+    ],
+    "positions": [
+      ""
+    ],
+    "areas": [],
+    "branchId": "afe73141-bbc3-44ca-8bbe-c6215740f564"
+  },
+  {
+    "id": "1644f183-1252-4820-b3f6-b39557232941",
+    "name": "유성미",
+    "stafferPhone": {
+      "type": "INWARD_DIALING",
+      "number": "3211"
+    },
+    "departmentPhone": {
+      "type": "INWARD_DIALING",
+      "number": "3215"
+    },
+    "departmentId": "cbba8247-5acf-4acd-bcfb-7fea22951866",
+    "departmentName": "주차과징팀",
+    "jobs": [
+      "압류",
+      "부동산",
+      "예금",
+      "해지"
+    ],
+    "positions": [
+      ""
+    ],
+    "areas": [],
+    "branchId": "afe73141-bbc3-44ca-8bbe-c6215740f564"
+  },
+  {
+    "id": "6306b3b9-974b-4b09-89f4-5e015c51ad9a",
+    "name": "정민경",
+    "stafferPhone": {
+      "type": "INWARD_DIALING",
+      "number": "3213"
+    },
+    "departmentPhone": {
+      "type": "INWARD_DIALING",
+      "number": "3215"
+    },
+    "departmentId": "cbba8247-5acf-4acd-bcfb-7fea22951866",
+    "departmentName": "주차과징팀",
+    "jobs": [
+      "압류",
+      "이의신청",
+      "법원",
+      "해지"
+    ],
+    "positions": [
+      ""
+    ],
+    "areas": [],
+    "branchId": "afe73141-bbc3-44ca-8bbe-c6215740f564"
+  },
+  {
+    "id": "fdfffaa1-1923-458c-bf25-6f22e640670c",
+    "name": "이민정",
+    "stafferPhone": {
+      "type": "INWARD_DIALING",
+      "number": "3210"
+    },
+    "departmentPhone": {
+      "type": "INWARD_DIALING",
+      "number": "3215"
+    },
+    "departmentId": "cbba8247-5acf-4acd-bcfb-7fea22951866",
+    "departmentName": "주차과징팀",
+    "jobs": [
+      "압류",
+      "체납",
+      "해지"
+    ],
+    "positions": [
+      ""
+    ],
+    "areas": [],
+    "branchId": "afe73141-bbc3-44ca-8bbe-c6215740f564"
+  },
+  {
+    "id": "67523066-9ef6-4ec7-b432-2d18ff51552b",
+    "name": "최선이",
+    "stafferPhone": {
+      "type": "INWARD_DIALING",
+      "number": "3215"
+    },
+    "departmentPhone": {
+      "type": "INWARD_DIALING",
+      "number": "2086"
+    },
+    "departmentId": "cbba8247-5acf-4acd-bcfb-7fea22951866",
+    "departmentName": "주차과징팀",
+    "jobs": [
+      "압류",
+      "해지"
+    ],
+    "positions": [
+      ""
+    ],
+    "areas": [],
+    "branchId": "afe73141-bbc3-44ca-8bbe-c6215740f564"
+  },
+  {
+    "id": "60f98282-c62b-4f5d-8619-d14ef1049fb1",
+    "name": "신창우",
+    "stafferPhone": {
+      "type": "INWARD_DIALING",
+      "number": "2132"
+    },
+    "departmentPhone": {
+      "type": "INWARD_DIALING",
+      "number": "2086"
+    },
+    "departmentId": "69e6e754-d0de-418f-9689-fa220bf00770",
+    "departmentName": "주차시설팀",
+    "jobs": [
+      "부설주차장"
+    ],
+    "positions": [
+      ""
+    ],
+    "areas": [],
+    "branchId": "afe73141-bbc3-44ca-8bbe-c6215740f564"
+  }
+]

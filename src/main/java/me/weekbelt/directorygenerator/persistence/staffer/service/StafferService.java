@@ -104,38 +104,42 @@ public class StafferService {
 
     private List<Job> saveJobs(String branchId, NewStafferJson newStafferJson, JobType jobType) {
         List<String> jobs = newStafferJson.getJobs();
-        return jobs.stream().map(jobName -> {
-            if (!jobRepository.existsByName(jobName)) {
-                Job job = Job.builder()
-                    .id(UUID.randomUUID().toString())
-                    .name(jobName)
-                    .depth(1)
-                    .branchId(branchId)
-                    .jobType(jobType)
-                    .build();
-                return jobRepository.save(job);
-            } else {
-                return jobRepository.findByName(jobName)
-                    .orElseThrow(() -> new EntityNotFoundException("존재 하지 않는 Job입니다. jobName=" + jobName));
-            }
-        }).collect(Collectors.toList());
+        return jobs.stream()
+            .filter(jobName -> !jobName.equals(""))
+            .map(jobName -> {
+                if (!jobRepository.existsByName(jobName)) {
+                    Job job = Job.builder()
+                        .id(UUID.randomUUID().toString())
+                        .name(jobName)
+                        .depth(1)
+                        .branchId(branchId)
+                        .jobType(jobType)
+                        .build();
+                    return jobRepository.save(job);
+                } else {
+                    return jobRepository.findByName(jobName)
+                        .orElseThrow(() -> new EntityNotFoundException("존재 하지 않는 Job입니다. jobName=" + jobName));
+                }
+            }).collect(Collectors.toList());
     }
 
     private List<Position> savePositions(String branchId, NewStafferJson newStafferJson) {
         List<String> positions = newStafferJson.getPositions();
-        return positions.stream().map(positionName -> {
-            if (!positionRepository.existsByName(positionName)) {
-                Position position = Position.builder()
-                    .id(UUID.randomUUID().toString())
-                    .name(positionName)
-                    .branchId(branchId)
-                    .build();
-                return positionRepository.save(position);
-            } else {
-                return positionRepository.findByName(positionName)
-                    .orElseThrow(() -> new EntityNotFoundException("존재 하지 않는 Position입니다. positionName=" + positionName));
-            }
-        }).collect(Collectors.toList());
+        return positions.stream()
+            .filter(positionName -> !positionName.equals(""))
+            .map(positionName -> {
+                if (!positionRepository.existsByName(positionName)) {
+                    Position position = Position.builder()
+                        .id(UUID.randomUUID().toString())
+                        .name(positionName)
+                        .branchId(branchId)
+                        .build();
+                    return positionRepository.save(position);
+                } else {
+                    return positionRepository.findByName(positionName)
+                        .orElseThrow(() -> new EntityNotFoundException("존재 하지 않는 Position입니다. positionName=" + positionName));
+                }
+            }).collect(Collectors.toList());
     }
 
 }

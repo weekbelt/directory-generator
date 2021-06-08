@@ -1,0 +1,208 @@
+[
+  {
+    "depth": 0,
+    "hierarchies": [],
+    "id": "bdde7ce9-c97d-4d01-8fab-3619dbe32b4b",
+    "name": "구로구청",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "2114"
+    },
+    "parentDept": null,
+    "branchID": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "bdde7ce9-c97d-4d01-8fab-3619dbe32b4b",
+        "name": "구로구청"
+      }
+    ],
+    "id": "4ffdb325-be70-4fd7-9336-dcaa8d7b38aa",
+    "name": "안전건설국",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "2309"
+    },
+    "parentDept": {
+      "id": "bdde7ce9-c97d-4d01-8fab-3619dbe32b4b",
+      "name": "구로구청",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "2114"
+      }
+    },
+    "branchID": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "bdde7ce9-c97d-4d01-8fab-3619dbe32b4b",
+        "name": "구로구청"
+      },
+      {
+        "id": "4ffdb325-be70-4fd7-9336-dcaa8d7b38aa",
+        "name": "안전건설국"
+      }
+    ],
+    "id": "ec87e91a-b8d9-463b-82db-4271b5bffe96",
+    "name": "주차관리과",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "2086"
+    },
+    "parentDept": {
+      "id": "4ffdb325-be70-4fd7-9336-dcaa8d7b38aa",
+      "name": "안전건설국",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "2309"
+      }
+    },
+    "branchID": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "bdde7ce9-c97d-4d01-8fab-3619dbe32b4b",
+        "name": "구로구청"
+      },
+      {
+        "id": "4ffdb325-be70-4fd7-9336-dcaa8d7b38aa",
+        "name": "안전건설국"
+      },
+      {
+        "id": "ec87e91a-b8d9-463b-82db-4271b5bffe96",
+        "name": "주차관리과"
+      }
+    ],
+    "id": "42a96fcc-4796-44b1-88e3-415f9ba1716f",
+    "name": "주차관리팀",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "3186"
+    },
+    "parentDept": {
+      "id": "ec87e91a-b8d9-463b-82db-4271b5bffe96",
+      "name": "주차관리과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "2086"
+      }
+    },
+    "branchID": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "bdde7ce9-c97d-4d01-8fab-3619dbe32b4b",
+        "name": "구로구청"
+      },
+      {
+        "id": "4ffdb325-be70-4fd7-9336-dcaa8d7b38aa",
+        "name": "안전건설국"
+      },
+      {
+        "id": "ec87e91a-b8d9-463b-82db-4271b5bffe96",
+        "name": "주차관리과"
+      }
+    ],
+    "id": "dea67851-75ab-48b9-bf3a-6ffa0b5ebd3f",
+    "name": "주차기획팀",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "3198"
+    },
+    "parentDept": {
+      "id": "ec87e91a-b8d9-463b-82db-4271b5bffe96",
+      "name": "주차관리과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "2086"
+      }
+    },
+    "branchID": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "bdde7ce9-c97d-4d01-8fab-3619dbe32b4b",
+        "name": "구로구청"
+      },
+      {
+        "id": "4ffdb325-be70-4fd7-9336-dcaa8d7b38aa",
+        "name": "안전건설국"
+      },
+      {
+        "id": "ec87e91a-b8d9-463b-82db-4271b5bffe96",
+        "name": "주차관리과"
+      }
+    ],
+    "id": "69e6e754-d0de-418f-9689-fa220bf00770",
+    "name": "주차시설팀",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "2132"
+    },
+    "parentDept": {
+      "id": "ec87e91a-b8d9-463b-82db-4271b5bffe96",
+      "name": "주차관리과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "2086"
+      }
+    },
+    "branchID": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 3,
+    "hierarchies": [
+      {
+        "id": "bdde7ce9-c97d-4d01-8fab-3619dbe32b4b",
+        "name": "구로구청"
+      },
+      {
+        "id": "4ffdb325-be70-4fd7-9336-dcaa8d7b38aa",
+        "name": "안전건설국"
+      },
+      {
+        "id": "ec87e91a-b8d9-463b-82db-4271b5bffe96",
+        "name": "주차관리과"
+      }
+    ],
+    "id": "cbba8247-5acf-4acd-bcfb-7fea22951866",
+    "name": "주차과징팀",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "3215"
+    },
+    "parentDept": {
+      "id": "ec87e91a-b8d9-463b-82db-4271b5bffe96",
+      "name": "주차관리과",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "2086"
+      }
+    },
+    "branchID": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+    "synonyms": [],
+    "areas": null
+  }
+]

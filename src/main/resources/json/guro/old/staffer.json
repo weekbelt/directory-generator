@@ -1,0 +1,997 @@
+[
+  {
+    "staffID": 1,
+    "firstName": "현길",
+    "lastName": "김",
+    "fullName": "김현길",
+    "phone": {
+      "type": "내선",
+      "number": "3185"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "3186"
+    },
+    "jobs": [
+      "일일실적관리"
+    ],
+    "departmentID": 4,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "id": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+        "transferPrefix": "",
+        "name": "구청"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "구로구청"
+      },
+      {
+        "id": "2",
+        "name": "안전건설국"
+      },
+      {
+        "id": "3",
+        "name": "주차관리과"
+      }
+    ],
+    "department": "주차관리팀",
+    "email": "dacsid@generated.email",
+    "positions": [
+      "팀장",
+      "주차관리팀장"
+    ],
+    "bchID": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+    "admin": false
+  },
+  {
+    "staffID": 2,
+    "firstName": "기봉",
+    "lastName": "양",
+    "fullName": "양기봉",
+    "phone": {
+      "type": "내선",
+      "number": "2598"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "3186"
+    },
+    "jobs": [
+      "견인",
+      "견인대행비",
+      "납부",
+      "주차표지판"
+    ],
+    "departmentID": 4,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "id": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+        "transferPrefix": "",
+        "name": "구청"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "구로구청"
+      },
+      {
+        "id": "2",
+        "name": "안전건설국"
+      },
+      {
+        "id": "3",
+        "name": "주차관리과"
+      }
+    ],
+    "department": "주차관리팀",
+    "email": "savbuc@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+    "admin": false
+  },
+  {
+    "staffID": 3,
+    "firstName": "주희",
+    "lastName": "안",
+    "fullName": "안주희",
+    "phone": {
+      "type": "내선",
+      "number": "2454"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "3186"
+    },
+    "jobs": [
+      "무인주차단속",
+      "CCTV구축",
+      "CCTV관리",
+      "단속차량",
+      "주행",
+      "CCTV",
+      "전기요금",
+      "문자알리미",
+      "통신비",
+      "전용회선비",
+      "PDA",
+      "단속폰",
+      "단속",
+      "보상금"
+    ],
+    "departmentID": 4,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "id": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+        "transferPrefix": "",
+        "name": "구청"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "구로구청"
+      },
+      {
+        "id": "2",
+        "name": "안전건설국"
+      },
+      {
+        "id": "3",
+        "name": "주차관리과"
+      }
+    ],
+    "department": "주차관리팀",
+    "email": "ridbue@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+    "admin": false
+  },
+  {
+    "staffID": 4,
+    "firstName": "태수",
+    "lastName": "김",
+    "fullName": "김태수",
+    "phone": {
+      "type": "내선",
+      "number": "3183"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "3186"
+    },
+    "jobs": [
+      "불법주차",
+      "불법주정차",
+      "단속",
+      "시간선택제",
+      "임기제",
+      "공무원",
+      "포상금"
+    ],
+    "departmentID": 4,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "id": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+        "transferPrefix": "",
+        "name": "구청"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "구로구청"
+      },
+      {
+        "id": "2",
+        "name": "안전건설국"
+      },
+      {
+        "id": "3",
+        "name": "주차관리과"
+      }
+    ],
+    "department": "주차관리팀",
+    "email": "mivfuh@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+    "admin": false
+  },
+  {
+    "staffID": 5,
+    "firstName": "재군",
+    "lastName": "진",
+    "fullName": "진재군",
+    "phone": {
+      "type": "내선",
+      "number": "2691"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "3186"
+    },
+    "jobs": [
+      "단속자료",
+      "사전통지서발송",
+      "발송",
+      "사전통지서관리"
+    ],
+    "departmentID": 4,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "id": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+        "transferPrefix": "",
+        "name": "구청"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "구로구청"
+      },
+      {
+        "id": "2",
+        "name": "안전건설국"
+      },
+      {
+        "id": "3",
+        "name": "주차관리과"
+      }
+    ],
+    "department": "주차관리팀",
+    "email": "kewjeu@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+    "admin": false
+  },
+  {
+    "staffID": 6,
+    "firstName": "태욱",
+    "lastName": "성",
+    "fullName": "성태욱",
+    "phone": {
+      "type": "내선",
+      "number": "3190"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "3186"
+    },
+    "jobs": [
+      "불법주차",
+      "의견진술",
+      "불법주정차",
+      "의견진술접수",
+      "심의관련",
+      "사회적약자"
+    ],
+    "departmentID": 4,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "id": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+        "transferPrefix": "",
+        "name": "구청"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "구로구청"
+      },
+      {
+        "id": "2",
+        "name": "안전건설국"
+      },
+      {
+        "id": "3",
+        "name": "주차관리과"
+      }
+    ],
+    "department": "주차관리팀",
+    "email": "viojut@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+    "admin": false
+  },
+  {
+    "staffID": 7,
+    "firstName": "태균",
+    "lastName": "김",
+    "fullName": "김태균",
+    "phone": {
+      "type": "내선",
+      "number": "3188"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "3186"
+    },
+    "jobs": [
+      "응답소",
+      "민원접수",
+      "단속",
+      "유류비지급",
+      "보험",
+      "사회복무요원"
+    ],
+    "departmentID": 4,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "id": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+        "transferPrefix": "",
+        "name": "구청"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "구로구청"
+      },
+      {
+        "id": "2",
+        "name": "안전건설국"
+      },
+      {
+        "id": "3",
+        "name": "주차관리과"
+      }
+    ],
+    "department": "주차관리팀",
+    "email": "pophon@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+    "admin": false
+  },
+  {
+    "staffID": 8,
+    "firstName": "나은",
+    "lastName": "최",
+    "fullName": "최나은",
+    "phone": {
+      "type": "내선",
+      "number": "3191"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "3186"
+    },
+    "jobs": [
+      "스마트불편",
+      "안전신문고",
+      "생활불편신고",
+      "불편신고",
+      "주차금지선"
+    ],
+    "departmentID": 4,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "id": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+        "transferPrefix": "",
+        "name": "구청"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "구로구청"
+      },
+      {
+        "id": "2",
+        "name": "안전건설국"
+      },
+      {
+        "id": "3",
+        "name": "주차관리과"
+      }
+    ],
+    "department": "주차관리팀",
+    "email": "namwal@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+    "admin": false
+  },
+  {
+    "staffID": 13,
+    "firstName": "선옥",
+    "lastName": "양",
+    "fullName": "양선옥",
+    "phone": {
+      "type": "내선",
+      "number": "3197"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "3198"
+    },
+    "jobs": [
+      "버스전용차로",
+      "버스전용차로위반"
+    ],
+    "departmentID": 5,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "id": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+        "transferPrefix": "",
+        "name": "구청"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "구로구청"
+      },
+      {
+        "id": "2",
+        "name": "안전건설국"
+      },
+      {
+        "id": "3",
+        "name": "주차관리과"
+      }
+    ],
+    "department": "주차기획팀",
+    "email": "qlwpdpdsf65@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+    "admin": false
+  },
+  {
+    "staffID": 14,
+    "firstName": "성부",
+    "lastName": "김",
+    "fullName": "김성부",
+    "phone": {
+      "type": "내선",
+      "number": "2134"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "3198"
+    },
+    "jobs": [
+      "그린파킹",
+      "담장허물기",
+      "주차장만들기"
+    ],
+    "departmentID": 5,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "id": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+        "transferPrefix": "",
+        "name": "구청"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "구로구청"
+      },
+      {
+        "id": "2",
+        "name": "안전건설국"
+      },
+      {
+        "id": "3",
+        "name": "주차관리과"
+      }
+    ],
+    "department": "주차기획팀",
+    "email": "qlw1pdpd3f@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+    "admin": false
+  },
+  {
+    "staffID": 15,
+    "firstName": "민아",
+    "lastName": "마",
+    "fullName": "마민아",
+    "phone": {
+      "type": "내선",
+      "number": "2688"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "3198"
+    },
+    "jobs": [
+      "공영주차장"
+    ],
+    "departmentID": 5,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "id": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+        "transferPrefix": "",
+        "name": "구청"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "구로구청"
+      },
+      {
+        "id": "2",
+        "name": "안전건설국"
+      },
+      {
+        "id": "3",
+        "name": "주차관리과"
+      }
+    ],
+    "department": "주차기획팀",
+    "email": "ql2wpd4pdf@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+    "admin": false
+  },
+  {
+    "staffID": 16,
+    "firstName": "도훈",
+    "lastName": "최",
+    "fullName": "최도훈",
+    "phone": {
+      "type": "내선",
+      "number": "3198"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "2086"
+    },
+    "jobs": [
+      "거주자우선주차",
+      "노상주차",
+      "주택가",
+      "주차공간"
+    ],
+    "departmentID": 5,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "id": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+        "transferPrefix": "",
+        "name": "구청"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "구로구청"
+      },
+      {
+        "id": "2",
+        "name": "안전건설국"
+      },
+      {
+        "id": "3",
+        "name": "주차관리과"
+      }
+    ],
+    "department": "주차기획팀",
+    "email": "q1lw3pdpdf@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+    "admin": false
+  },
+  {
+    "staffID": 17,
+    "firstName": "명정",
+    "lastName": "진",
+    "fullName": "진명정",
+    "phone": {
+      "type": "내선",
+      "number": "2106"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "2132"
+    },
+    "jobs": [
+      "주차장건설"
+    ],
+    "departmentID": 6,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "id": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+        "transferPrefix": "",
+        "name": "구청"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "구로구청"
+      },
+      {
+        "id": "2",
+        "name": "안전건설국"
+      },
+      {
+        "id": "3",
+        "name": "주차관리과"
+      }
+    ],
+    "department": "주차시설팀",
+    "email": "qlw3pd5pdf@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+    "admin": false
+  },
+  {
+    "staffID": 18,
+    "firstName": "예니",
+    "lastName": "구",
+    "fullName": "구예니",
+    "phone": {
+      "type": "내선",
+      "number": "2130"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "2132"
+    },
+    "jobs": [
+      "주차장건설"
+    ],
+    "departmentID": 6,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "id": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+        "transferPrefix": "",
+        "name": "구청"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "구로구청"
+      },
+      {
+        "id": "2",
+        "name": "안전건설국"
+      },
+      {
+        "id": "3",
+        "name": "주차관리과"
+      }
+    ],
+    "department": "주차시설팀",
+    "email": "qlw1pd3pdf@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+    "admin": false
+  },
+  {
+    "staffID": 19,
+    "firstName": "성민",
+    "lastName": "배",
+    "fullName": "배성민",
+    "phone": {
+      "type": "내선",
+      "number": "2131"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "2132"
+    },
+    "jobs": [
+      "주차장건설"
+    ],
+    "departmentID": 6,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "id": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+        "transferPrefix": "",
+        "name": "구청"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "구로구청"
+      },
+      {
+        "id": "2",
+        "name": "안전건설국"
+      },
+      {
+        "id": "3",
+        "name": "주차관리과"
+      }
+    ],
+    "department": "주차시설팀",
+    "email": "q3l4wpdpdf@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+    "admin": false
+  },
+  {
+    "staffID": 20,
+    "firstName": "성미",
+    "lastName": "유",
+    "fullName": "유성미",
+    "phone": {
+      "type": "내선",
+      "number": "3211"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "3215"
+    },
+    "jobs": [
+      "압류",
+      "부동산",
+      "예금",
+      "해지"
+    ],
+    "departmentID": 7,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "id": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+        "transferPrefix": "",
+        "name": "구청"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "구로구청"
+      },
+      {
+        "id": "2",
+        "name": "안전건설국"
+      },
+      {
+        "id": "3",
+        "name": "주차관리과"
+      }
+    ],
+    "department": "주차과징팀",
+    "email": "qlwp3dp1df@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+    "admin": false
+  },
+  {
+    "staffID": 21,
+    "firstName": "민경",
+    "lastName": "정",
+    "fullName": "정민경",
+    "phone": {
+      "type": "내선",
+      "number": "3213"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "3215"
+    },
+    "jobs": [
+      "압류",
+      "이의신청",
+      "법원",
+      "해지"
+    ],
+    "departmentID": 7,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "id": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+        "transferPrefix": "",
+        "name": "구청"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "구로구청"
+      },
+      {
+        "id": "2",
+        "name": "안전건설국"
+      },
+      {
+        "id": "3",
+        "name": "주차관리과"
+      }
+    ],
+    "department": "주차과징팀",
+    "email": "ql7wp5dpdf@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+    "admin": false
+  },
+  {
+    "staffID": 22,
+    "firstName": "민정",
+    "lastName": "이",
+    "fullName": "이민정",
+    "phone": {
+      "type": "내선",
+      "number": "3210"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "3215"
+    },
+    "jobs": [
+      "압류",
+      "체납",
+      "해지"
+    ],
+    "departmentID": 7,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "id": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+        "transferPrefix": "",
+        "name": "구청"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "구로구청"
+      },
+      {
+        "id": "2",
+        "name": "안전건설국"
+      },
+      {
+        "id": "3",
+        "name": "주차관리과"
+      }
+    ],
+    "department": "주차과징팀",
+    "email": "q3lwp8dpdf@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+    "admin": false
+  },
+  {
+    "staffID": 23,
+    "firstName": "선이",
+    "lastName": "최",
+    "fullName": "최선이",
+    "phone": {
+      "type": "내선",
+      "number": "3215"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "2086"
+    },
+    "jobs": [
+      "압류",
+      "해지"
+    ],
+    "departmentID": 7,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "id": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+        "transferPrefix": "",
+        "name": "구청"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "구로구청"
+      },
+      {
+        "id": "2",
+        "name": "안전건설국"
+      },
+      {
+        "id": "3",
+        "name": "주차관리과"
+      }
+    ],
+    "department": "주차과징팀",
+    "email": "ql3wp5dp6df@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+    "admin": false
+  },
+  {
+    "staffID": 24,
+    "firstName": "창우",
+    "lastName": "신",
+    "fullName": "신창우",
+    "phone": {
+      "type": "내선",
+      "number": "2132"
+    },
+    "phone2": {
+      "type": "내선",
+      "number": "2086"
+    },
+    "jobs": [
+      "부설주차장"
+    ],
+    "departmentID": 6,
+    "entityDisplayName": "staff",
+    "transferableBranches": [
+      {
+        "id": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+        "transferPrefix": "",
+        "name": "구청"
+      }
+    ],
+    "departmentHierarchy": [
+      {
+        "id": "1",
+        "name": "구로구청"
+      },
+      {
+        "id": "2",
+        "name": "안전건설국"
+      },
+      {
+        "id": "3",
+        "name": "주차관리과"
+      }
+    ],
+    "department": "주차시설팀",
+    "email": "2ql3wp4dpd6f@generated.email",
+    "positions": [
+      ""
+    ],
+    "bchID": "afe73141-bbc3-44ca-8bbe-c6215740f564",
+    "admin": false
+  }
+]

@@ -1,0 +1,700 @@
+[
+  {
+    "depth": 0,
+    "hierarchies": [],
+    "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+    "name": "경상북도개발공사",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "005"
+    },
+    "parentDept": null,
+    "branchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+        "name": "경상북도개발공사"
+      }
+    ],
+    "id": "5b549d9e-7391-48f7-8e7b-ea9321086c17",
+    "name": "경영지원처",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "433"
+    },
+    "parentDept": {
+      "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+      "name": "경상북도개발공사",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "005"
+      }
+    },
+    "branchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+        "name": "경상북도개발공사"
+      }
+    ],
+    "id": "c70fd830-69b8-434e-b972-0ec36005335f",
+    "name": "신도시사업단",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "414"
+    },
+    "parentDept": {
+      "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+      "name": "경상북도개발공사",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "005"
+      }
+    },
+    "branchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+        "name": "경상북도개발공사"
+      }
+    ],
+    "id": "a1a9b784-b65a-47bf-80d6-db002b3d9c1f",
+    "name": "유교문화사업단",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "446"
+    },
+    "parentDept": {
+      "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+      "name": "경상북도개발공사",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "005"
+      }
+    },
+    "branchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+        "name": "경상북도개발공사"
+      },
+      {
+        "id": "0e886a11-d2cd-417b-9a17-afdf46e4c57b",
+        "name": "보상마케팅처"
+      }
+    ],
+    "id": "1d37288a-73fb-49db-83cc-ec5ed5877d86",
+    "name": "보상파트",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "413"
+    },
+    "parentDept": {
+      "id": "0e886a11-d2cd-417b-9a17-afdf46e4c57b",
+      "name": "보상마케팅처",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "413"
+      }
+    },
+    "branchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+        "name": "경상북도개발공사"
+      },
+      {
+        "id": "c70fd830-69b8-434e-b972-0ec36005335f",
+        "name": "신도시사업단"
+      }
+    ],
+    "id": "06ca71ed-2a85-4ad8-9f35-203a124ad0f9",
+    "name": "계획파트",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "414"
+    },
+    "parentDept": {
+      "id": "c70fd830-69b8-434e-b972-0ec36005335f",
+      "name": "신도시사업단",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "414"
+      }
+    },
+    "branchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+        "name": "경상북도개발공사"
+      },
+      {
+        "id": "c70fd830-69b8-434e-b972-0ec36005335f",
+        "name": "신도시사업단"
+      }
+    ],
+    "id": "3625c01c-5eb5-4a04-9255-9bf7c834777f",
+    "name": "조성파트",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "414"
+    },
+    "parentDept": {
+      "id": "c70fd830-69b8-434e-b972-0ec36005335f",
+      "name": "신도시사업단",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "414"
+      }
+    },
+    "branchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+        "name": "경상북도개발공사"
+      },
+      {
+        "id": "a1a9b784-b65a-47bf-80d6-db002b3d9c1f",
+        "name": "유교문화사업단"
+      }
+    ],
+    "id": "15530de6-8645-4a45-9f59-83d170ea5e73",
+    "name": "유교문화파트",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "446"
+    },
+    "parentDept": {
+      "id": "a1a9b784-b65a-47bf-80d6-db002b3d9c1f",
+      "name": "유교문화사업단",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "446"
+      }
+    },
+    "branchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+        "name": "경상북도개발공사"
+      }
+    ],
+    "id": "3f011cc0-c686-4b6b-a108-03ea05ff33fc",
+    "name": "혁신경영TF",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "173"
+    },
+    "parentDept": {
+      "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+      "name": "경상북도개발공사",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "005"
+      }
+    },
+    "branchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+        "name": "경상북도개발공사"
+      },
+      {
+        "id": "5540d1c2-3816-4700-aba2-17601ead7d0f",
+        "name": "공공개발처"
+      }
+    ],
+    "id": "af3d38da-5b2a-4a17-901d-8e705ebb3613",
+    "name": "안전환경파트",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "363"
+    },
+    "parentDept": {
+      "id": "5540d1c2-3816-4700-aba2-17601ead7d0f",
+      "name": "공공개발처",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "415"
+      }
+    },
+    "branchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+        "name": "경상북도개발공사"
+      },
+      {
+        "id": "73e5b03b-32c2-4956-9728-dab0647647c1",
+        "name": "기획혁신처"
+      }
+    ],
+    "id": "a8e26216-023d-43f8-8ffa-b047a660ae1d",
+    "name": "고객홍보파트",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "432"
+    },
+    "parentDept": {
+      "id": "73e5b03b-32c2-4956-9728-dab0647647c1",
+      "name": "기획혁신처",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "431"
+      }
+    },
+    "branchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+        "name": "경상북도개발공사"
+      },
+      {
+        "id": "73e5b03b-32c2-4956-9728-dab0647647c1",
+        "name": "기획혁신처"
+      }
+    ],
+    "id": "638ee44b-d1e4-4b34-98c8-935d5d42b4ae",
+    "name": "기획재무파트",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "431"
+    },
+    "parentDept": {
+      "id": "73e5b03b-32c2-4956-9728-dab0647647c1",
+      "name": "기획혁신처",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "431"
+      }
+    },
+    "branchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+        "name": "경상북도개발공사"
+      },
+      {
+        "id": "5540d1c2-3816-4700-aba2-17601ead7d0f",
+        "name": "공공개발처"
+      }
+    ],
+    "id": "b11fdaef-9921-4055-873e-5b5903eadaf3",
+    "name": "상생협력파트",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "415"
+    },
+    "parentDept": {
+      "id": "5540d1c2-3816-4700-aba2-17601ead7d0f",
+      "name": "공공개발처",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "415"
+      }
+    },
+    "branchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+        "name": "경상북도개발공사"
+      }
+    ],
+    "id": "a9328005-403c-4b27-8ceb-8583e4376a95",
+    "name": "상임감사",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "445"
+    },
+    "parentDept": {
+      "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+      "name": "경상북도개발공사",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "005"
+      }
+    },
+    "branchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+        "name": "경상북도개발공사"
+      },
+      {
+        "id": "a9328005-403c-4b27-8ceb-8583e4376a95",
+        "name": "상임감사"
+      }
+    ],
+    "id": "d9b0ae73-60f6-461e-b0cc-27ae6ce2b678",
+    "name": "청렴감사실",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "445"
+    },
+    "parentDept": {
+      "id": "a9328005-403c-4b27-8ceb-8583e4376a95",
+      "name": "상임감사",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "445"
+      }
+    },
+    "branchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+        "name": "경상북도개발공사"
+      }
+    ],
+    "id": "73e5b03b-32c2-4956-9728-dab0647647c1",
+    "name": "기획혁신처",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "431"
+    },
+    "parentDept": {
+      "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+      "name": "경상북도개발공사",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "005"
+      }
+    },
+    "branchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+        "name": "경상북도개발공사"
+      },
+      {
+        "id": "5b549d9e-7391-48f7-8e7b-ea9321086c17",
+        "name": "경영지원처"
+      }
+    ],
+    "id": "a8fbcc3a-5a9c-43ba-9585-291141e772b5",
+    "name": "인사총무파트",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "433"
+    },
+    "parentDept": {
+      "id": "5b549d9e-7391-48f7-8e7b-ea9321086c17",
+      "name": "경영지원처",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "433"
+      }
+    },
+    "branchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+        "name": "경상북도개발공사"
+      },
+      {
+        "id": "5b549d9e-7391-48f7-8e7b-ea9321086c17",
+        "name": "경영지원처"
+      }
+    ],
+    "id": "1044808c-658e-4955-8432-f390acd527bc",
+    "name": "회계계약파트",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "434"
+    },
+    "parentDept": {
+      "id": "5b549d9e-7391-48f7-8e7b-ea9321086c17",
+      "name": "경영지원처",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "433"
+      }
+    },
+    "branchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+        "name": "경상북도개발공사"
+      }
+    ],
+    "id": "0e886a11-d2cd-417b-9a17-afdf46e4c57b",
+    "name": "보상마케팅처",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "413"
+    },
+    "parentDept": {
+      "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+      "name": "경상북도개발공사",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "005"
+      }
+    },
+    "branchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+        "name": "경상북도개발공사"
+      },
+      {
+        "id": "0e886a11-d2cd-417b-9a17-afdf46e4c57b",
+        "name": "보상마케팅처"
+      }
+    ],
+    "id": "f847b87e-a405-4a6c-9a64-252a1da67e3f",
+    "name": "마케팅파트",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "437"
+    },
+    "parentDept": {
+      "id": "0e886a11-d2cd-417b-9a17-afdf46e4c57b",
+      "name": "보상마케팅처",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "413"
+      }
+    },
+    "branchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+        "name": "경상북도개발공사"
+      }
+    ],
+    "id": "5540d1c2-3816-4700-aba2-17601ead7d0f",
+    "name": "공공개발처",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "415"
+    },
+    "parentDept": {
+      "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+      "name": "경상북도개발공사",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "005"
+      }
+    },
+    "branchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+        "name": "경상북도개발공사"
+      },
+      {
+        "id": "5540d1c2-3816-4700-aba2-17601ead7d0f",
+        "name": "공공개발처"
+      }
+    ],
+    "id": "42da7947-3b4d-46a6-8d5d-3b9b8dcfe2da",
+    "name": "공공개발파트",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "439"
+    },
+    "parentDept": {
+      "id": "5540d1c2-3816-4700-aba2-17601ead7d0f",
+      "name": "공공개발처",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "415"
+      }
+    },
+    "branchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 1,
+    "hierarchies": [
+      {
+        "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+        "name": "경상북도개발공사"
+      }
+    ],
+    "id": "0d290569-ad10-45d1-b2d5-b97c221b9bbf",
+    "name": "주거복지처",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "441"
+    },
+    "parentDept": {
+      "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+      "name": "경상북도개발공사",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "005"
+      }
+    },
+    "branchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+        "name": "경상북도개발공사"
+      },
+      {
+        "id": "0d290569-ad10-45d1-b2d5-b97c221b9bbf",
+        "name": "주거복지처"
+      }
+    ],
+    "id": "ebf8cd25-0c6b-4155-933a-d4b462ff2dcd",
+    "name": "주거재생파트",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "441"
+    },
+    "parentDept": {
+      "id": "0d290569-ad10-45d1-b2d5-b97c221b9bbf",
+      "name": "주거복지처",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "441"
+      }
+    },
+    "branchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "synonyms": [],
+    "areas": null
+  },
+  {
+    "depth": 2,
+    "hierarchies": [
+      {
+        "id": "ce2ac27f-6806-4368-9e32-5de519603af5",
+        "name": "경상북도개발공사"
+      },
+      {
+        "id": "0d290569-ad10-45d1-b2d5-b97c221b9bbf",
+        "name": "주거복지처"
+      }
+    ],
+    "id": "7a59f667-cf18-490d-9933-1a2103039f08",
+    "name": "대행사업파트",
+    "phone": {
+      "type": "INWARD_DIALING",
+      "number": "442"
+    },
+    "parentDept": {
+      "id": "0d290569-ad10-45d1-b2d5-b97c221b9bbf",
+      "name": "주거복지처",
+      "phone": {
+        "type": "INWARD_DIALING",
+        "number": "441"
+      }
+    },
+    "branchID": "82963fba-9e92-4aa2-b698-7666829b4465",
+    "synonyms": [],
+    "areas": null
+  }
+]
